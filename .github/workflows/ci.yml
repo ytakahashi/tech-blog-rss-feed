@@ -80,7 +80,8 @@ jobs:
     - run: npm run test-coverage
 
   generate:
-    name: Generate feed and site
+    # This fork publishes only the lite feed (see generate-lite-feed.yml).
+    name: Generate lite feed
     runs-on: ubuntu-latest
     timeout-minutes: 20
     steps:
@@ -91,7 +92,5 @@ jobs:
           cache: npm
       - run: npm ci
       - uses: ./.github/actions/restore-feed-cache
-      - run: npm run feed-generate
-      - run: npm run site-prepare
-      - run: npm run site-build
+      - run: npm run lite-feed-generate
       - uses: ./.github/actions/save-feed-cache

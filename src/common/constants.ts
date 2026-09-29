@@ -32,7 +32,8 @@ export default {
   globalSiteTagKey: 'G-CNNNTL0NB3',
 
   // フィードの取得などに使う UserAgent
-  requestUserAgent: 'facebookexternalhit/1.1; yamadashy/tech-blog-rss-feed',
+  // Identifies this fork instead of the upstream project, as this fork crawls on its own.
+  requestUserAgent: 'facebookexternalhit/1.1; ytakahashi/tech-blog-rss-feed',
 
   // サイトの追加方法のリンク
   howToAddSiteLink:

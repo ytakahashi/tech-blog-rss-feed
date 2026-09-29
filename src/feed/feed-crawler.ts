@@ -45,6 +45,16 @@ export interface ClawlFeedsResult {
   feedBlogOgObjectMap: OgObjectMap;
 }
 
+/**
+ * Optional lookups after fetching the feeds. All enabled by default.
+ * The lite feed outputs none of them, so it skips them to avoid extra requests.
+ */
+export interface CrawlFeedsOptions {
+  fetchFeedItemOg: boolean;
+  fetchFeedBlogOg: boolean;
+  fetchHatenaCount: boolean;
+}
+
 export class FeedCrawler {
   private rssParser;
   private feedValidator;
@@ -65,6 +75,7 @@ export class FeedCrawler {
     feedFetchConcurrency: number,
     feedOgFetchConcurrency: number,
     aggregateFeedStartAt: Date,
+    options: CrawlFeedsOptions = { fetchFeedItemOg: true, fetchFeedBlogOg: true, fetchHatenaCount: true },
   ): Promise<ClawlFeedsResult> {
     // フィード取得してまとめる
     const fetchFeedsStartTime = Date.now();
@@ -76,9 +87,15 @@ export class FeedCrawler {
     const fetchOgAndHatenaStartTime = Date.now();
     const [errorFetchFeedData, results] = await to(
       Promise.all([
-        this.fetchFeedItemOgObjectMap(allFeedItems, feedOgFetchConcurrency),
-        this.fetchHatenaCountMap(allFeedItems),
-        this.fetchFeedBlogOgObjectMap(feeds, feedOgFetchConcurrency),
+        options.fetchFeedItemOg
+          ? this.fetchFeedItemOgObjectMap(allFeedItems, feedOgFetchConcurrency)
+          : Promise.resolve<OgObjectMap>(new Map()),
+        options.fetchHatenaCount
+          ? this.fetchHatenaCountMap(allFeedItems)
+          : Promise.resolve<FeedItemHatenaCountMap>(new Map()),
+        options.fetchFeedBlogOg
+          ? this.fetchFeedBlogOgObjectMap(feeds, feedOgFetchConcurrency)
+          : Promise.resolve<OgObjectMap>(new Map()),
       ]),
     );
     logger.info('[phase] fetch og/hatena', `${((Date.now() - fetchOgAndHatenaStartTime) / 1000).toFixed(1)}s`);
