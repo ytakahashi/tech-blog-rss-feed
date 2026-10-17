@@ -1,0 +1,1131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <title>企業テックブログRSS (lite)</title>
+        <link>https://github.com/ytakahashi/tech-blog-rss-feed</link>
+        <description>企業のテックブログの更新をまとめたRSSフィードの軽量版</description>
+        <lastBuildDate>Sat, 17 Oct 2026 18:45:19 GMT</lastBuildDate>
+        <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
+        <generator>ytakahashi/tech-blog-rss-feed</generator>
+        <language>ja</language>
+        <copyright>ytakahashi/tech-blog-rss-feed (fork of yamadashy/tech-blog-rss-feed)</copyright>
+        <atom:link href="https://ytakahashi.github.io/tech-blog-rss-feed/feeds/lite.xml" rel="self" type="application/rss+xml"/>
+        <item>
+            <title><![CDATA[Chapter 6｜第70回 「セキュリティを強くすればよい」ではない？利便性とのバランス | APC 技術ブログ]]></title>
+            <link>https://techblog.ap-com.co.jp/entry/2026/10/17/213912</link>
+            <guid isPermaLink="false">https://techblog.ap-com.co.jp/entry/2026/10/17/213912</guid>
+            <pubDate>Sat, 17 Oct 2026 12:39:12 GMT</pubDate>
+            <description><![CDATA[「Securityを強くするなら、できるだけ多くBlockすればよい」 一見すると正しそうです。 しかし、業務で必要なApplicationまで使いにくくなれば、Userは別の方法を探したり、問い合わせが増えたりします。逆に利便性だけを優先して広くAllowすれば、Riskが大きくなる可能性があります。 実務の設計では、Securityだけを最大化するのではなく、User ExperienceとO]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Chapter 6｜第69回 拠点・在宅・海外で設計はどう変わる？ | APC 技術ブログ]]></title>
+            <link>https://techblog.ap-com.co.jp/entry/2026/10/17/213909</link>
+            <guid isPermaLink="false">https://techblog.ap-com.co.jp/entry/2026/10/17/213909</guid>
+            <pubDate>Sat, 17 Oct 2026 12:39:09 GMT</pubDate>
+            <description><![CDATA[同じ会社のUserなら、同じZscaler設定をそのまま使えばよいのでしょうか。 OfficeではCorporate Networkを使い、自宅では家庭用Wi-FiとISPを使い、海外では現地のInternet事情や規制の影響を受けます。 利用するApplicationが同じでも、通信が始まる場所と経路が違えば、設計上の前提も変わります。 この回では、Office・Home・Overseasの3場]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Chapter 6｜第68回 VPNやProxyからZscalerへ移行するとき、何が難しい？ | APC 技術ブログ]]></title>
+            <link>https://techblog.ap-com.co.jp/entry/2026/10/17/213906</link>
+            <guid isPermaLink="false">https://techblog.ap-com.co.jp/entry/2026/10/17/213906</guid>
+            <pubDate>Sat, 17 Oct 2026 12:39:06 GMT</pubDate>
+            <description><![CDATA[「いまのVPNをZPAへ置き換える」 「いまのProxyをZIAへ切り替える」 言葉だけなら、とても単純に聞こえます。 しかし既存のVPNやProxyは、長年の運用の中で多くのRule、例外、業務依存を抱えています。 誰も使っていないと思っていたBypassが実は月末処理に必要だった。特定ApplicationだけProxyを経由しない。古いSystemがIPベースの通信を前提にしている。 こうし]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Chapter 6｜第67回 なぜ最初から全社展開しない？Pilotの意味 | APC 技術ブログ]]></title>
+            <link>https://techblog.ap-com.co.jp/entry/2026/10/17/213902</link>
+            <guid isPermaLink="false">https://techblog.ap-com.co.jp/entry/2026/10/17/213902</guid>
+            <pubDate>Sat, 17 Oct 2026 12:39:02 GMT</pubDate>
+            <description><![CDATA[「設定もできた。検証環境でも動いた。では来週から全社員へ展開しよう」 一見すると効率的です。 しかし、実際の企業環境には、設計時に見えていなかったApplication、特殊な端末、独自の業務手順、在宅・拠点ごとのNetwork差などがあります。 そこで本番展開の前に使われるのがPilotです。 Pilotは「念のため少人数で試す期間」ではありません。 設計と現実の差を見つけ、次の展開へ反映するた]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Chapter 6｜第66回 Client Connectorの展開では何を考える？ | APC 技術ブログ]]></title>
+            <link>https://techblog.ap-com.co.jp/entry/2026/10/17/213859</link>
+            <guid isPermaLink="false">https://techblog.ap-com.co.jp/entry/2026/10/17/213859</guid>
+            <pubDate>Sat, 17 Oct 2026 12:38:59 GMT</pubDate>
+            <description><![CDATA[Client Connectorを100台、1,000台、1万台へ入れるとき、単に「Installできれば終わり」でしょうか。 少人数の検証端末では問題なくても、全社にはWindowsとmacOS、異なるOS Version、VPN Client、EDR、拠点Network、在宅勤務、利用Applicationなど、さまざまな条件があります。 そのためClient Connectorの展開は、In]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Chapter 6｜第65回 なぜ認証・Identity設計が重要なの？ | APC 技術ブログ]]></title>
+            <link>https://techblog.ap-com.co.jp/entry/2026/10/17/213856</link>
+            <guid isPermaLink="false">https://techblog.ap-com.co.jp/entry/2026/10/17/213856</guid>
+            <pubDate>Sat, 17 Oct 2026 12:38:56 GMT</pubDate>
+            <description><![CDATA[では、Identity ProviderとSAMLを設定してLoginできれば、Identity設計は終わるのでしょうか。実際には、それだけでは足りません。 ZscalerのPolicyではUser、Group、Device PostureなどをAccess判断に利用できます。元のUser / Group情報が古い、Group粒度が粗い、退職者情報が反映されない状態では、細かなPolicyを作って]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Chapter 6｜第64回 ZPAの設計では何を考える？ | APC 技術ブログ]]></title>
+            <link>https://techblog.ap-com.co.jp/entry/2026/10/17/213853</link>
+            <guid isPermaLink="false">https://techblog.ap-com.co.jp/entry/2026/10/17/213853</guid>
+            <pubDate>Sat, 17 Oct 2026 12:38:53 GMT</pubDate>
+            <description><![CDATA[ZPAを導入するとき、「VPNの代わりにZPAを入れる」と考えるだけでは設計の本質を見失いやすくなります。 ZPAでは、どのUserを、どのPrivate Applicationへ接続させるかをApplication単位で考えます。 そのため、既存VPNのRouteやSubnetをそのまま再現するのではなく、Private App、Application Segment、App Connector]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Chapter 6｜第63回 ZIAの設計では何を考える？ | APC 技術ブログ]]></title>
+            <link>https://techblog.ap-com.co.jp/entry/2026/10/17/213849</link>
+            <guid isPermaLink="false">https://techblog.ap-com.co.jp/entry/2026/10/17/213849</guid>
+            <pubDate>Sat, 17 Oct 2026 12:38:49 GMT</pubDate>
+            <description><![CDATA[ZIAを導入するとき、「WebをZscalerへ送れば終わり」ではありません。 インターネットやSaaSへの通信をどのようにZIAへ転送するのか。その通信を誰のものとして識別し、どのような検査やポリシーを適用するのか。 こうした設計項目を関連付けて考えることが、ZIA設計では重要です。 ただし、これらは設計時に検討する項目であり、ZIA内部で実際に通信が処理される順序を示したものではありません。 ]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Chapter 6｜第62回 なぜ現状調査が重要？As-Isを知らずに設計できない理由 | APC 技術ブログ]]></title>
+            <link>https://techblog.ap-com.co.jp/entry/2026/10/17/213846</link>
+            <guid isPermaLink="false">https://techblog.ap-com.co.jp/entry/2026/10/17/213846</guid>
+            <pubDate>Sat, 17 Oct 2026 12:38:46 GMT</pubDate>
+            <description><![CDATA[Zscaler導入では、理想の構成図を描く前にやることがあります。 それがAs-Is（現状）の把握です。 既存のProxy、VPN、Firewall、Identity Provider、端末管理、DNS、Application配置。 これらを十分に確認せず、「これからはZIAとZPAを使う」とTo-Beだけを描いてしまうと、移行時に思わぬ影響が出ることがあります。 たとえば、長年利用されているPA]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Chapter 6｜第61回 Zscaler導入では最初に何を決めるの？ | APC 技術ブログ]]></title>
+            <link>https://techblog.ap-com.co.jp/entry/2026/10/17/213842</link>
+            <guid isPermaLink="false">https://techblog.ap-com.co.jp/entry/2026/10/17/213842</guid>
+            <pubDate>Sat, 17 Oct 2026 12:38:42 GMT</pubDate>
+            <description><![CDATA[Zscalerを導入すると決まったとき、最初に考えることは何でしょうか。 「ZIAをどう設定するか」 「ZPAのApplication Segmentをどう切るか」 「Client Connectorをどう配布するか」 こうした話から始めたくなります。 しかし、設計の出発点は製品機能ではありません。 何を守りたいのか。誰が、どこから、何を使うのか。今の環境にどんな制約があるのか。 この前提が曖昧な]]></description>
+        </item>
+        <item>
+            <title><![CDATA[AIにfeatureブランチを切ってもらったのに不意にmainにpushされてしまう問題 | サーバーワークスエンジニアブログ]]></title>
+            <link>https://blog.serverworks.co.jp/ai-feature-branch-upstream-push-main</link>
+            <guid isPermaLink="false">https://blog.serverworks.co.jp/ai-feature-branch-upstream-push-main</guid>
+            <pubDate>Sat, 17 Oct 2026 10:01:41 GMT</pubDate>
+            <description><![CDATA[こんにちは。 アプリケーションサービス本部、DevOps担当の兼安です。 今回は、AIとGitのお話をします。 はじめに 発生する現象の内容 現象が発生する技術的な原因 push 時のグローバル設定で被害を軽減する 最終的にはブランチ保護ルールを設定する はじめに 以前から、AIが不意にmainにpushしてしまう現象はありますが、 最近、feature ブランチを切ったつもりが、git push]]></description>
+        </item>
+        <item>
+            <title><![CDATA[GitHub Copilotはどう使われている？OpenTelemetryで見える組織の利用実態 | Alternative Architecture DOJO]]></title>
+            <link>https://aadojo.alterbooth.com/entry/2026/10/17/182558</link>
+            <guid isPermaLink="false">https://aadojo.alterbooth.com/entry/2026/10/17/182558</guid>
+            <pubDate>Sat, 17 Oct 2026 09:25:58 GMT</pubDate>
+            <description><![CDATA[GitHub Copilotでは、AIエージェントに実装や修正を任せる機会も増えています。企業での利用が広がるほど、「どのモデルが使われたのか」「開発者は何を依頼し、どんな回答を得たのか」が気になるところです。 こうした情報を取得する仕組みが、OpenTelemetry（OTel）です。GitHub CopilotはVS CodeからのOpenTelemetry出力に対応しており、Enterpri]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Azure API Center - プランの変更方法 | ヘッドウォータースのフィード]]></title>
+            <link>https://zenn.dev/headwaters/articles/15defd92fc6e36</link>
+            <guid isPermaLink="false">https://zenn.dev/headwaters/articles/15defd92fc6e36</guid>
+            <pubDate>Sat, 17 Oct 2026 00:24:22 GMT</pubDate>
+            <description><![CDATA[執筆日2026/10/17 備忘録として残します 手順Azure API Centerを開く概要&gt;Manage planをクリック変更プランを選択し、送信をクリック]]></description>
+            <author>takekawa tomoki</author>
+        </item>
+        <item>
+            <title><![CDATA[Kaigi on Rails 2026 参加レポート！！【Day 1】 | Link and Motivation Developers' Blog]]></title>
+            <link>https://link-and-motivation.hatenablog.com/entry/2026/10/17/092036</link>
+            <guid isPermaLink="false">https://link-and-motivation.hatenablog.com/entry/2026/10/17/092036</guid>
+            <pubDate>Sat, 17 Oct 2026 00:20:36 GMT</pubDate>
+            <description><![CDATA[こんにちは！株式会社リンクアンドモチベーションの岡田です。 2026年10月16日〜17日に開催されている「Kaigi on Rails 2026」に、参加してきました！ Railsの生みの親であるDHHの登壇を直接見られることも楽しみにしていました。 弊社もブースを出展していたため、すべてのセッションを聞けたわけではありませんが、Day 1で特に印象に残ったセッションと、ブースでの交流を通じて感]]></description>
+        </item>
+        <item>
+            <title><![CDATA[arXiv・GitHub・Hacker Newsの新着を、LLMなしで「読む／見送り」に自動仕分けする（Python × Jev） | ヘッドウォータースのフィード]]></title>
+            <link>https://zenn.dev/headwaters/articles/133c233cc7eb6f</link>
+            <guid isPermaLink="false">https://zenn.dev/headwaters/articles/133c233cc7eb6f</guid>
+            <pubDate>Fri, 16 Oct 2026 12:01:16 GMT</pubDate>
+            <description><![CDATA[論文の新着は1日80件超：読むものを自動で選ぶツールを作るarXivの新着一覧（cs.AI・cs.CL）を見ると、新規投稿の論文は、2026-10-12付の cs.AI で83件、2026-10-09付の cs.CL で88件ありました。1つの分野だけで、1日に80件を超えます。要旨を1件30秒で読むとしても、83件で約40分かかります。そこで、技術論文の新着を取得し、GitHubとHacker ]]></description>
+            <author>ケン吉 / ゼロから作るAIアプリ開発</author>
+        </item>
+        <item>
+            <title><![CDATA[AI時代に業務に入り込み社内システムを作り直して学んだこと | every Tech Blog]]></title>
+            <link>https://tech.every.tv/entry/2026/10/16/205624</link>
+            <guid isPermaLink="false">https://tech.every.tv/entry/2026/10/16/205624</guid>
+            <pubDate>Fri, 16 Oct 2026 11:56:24 GMT</pubDate>
+            <description><![CDATA[目次 はじめに 背景 UserMatching（UM）と社内システム 社内システムの課題 目指したこと 業務に入り込む進め方 ヒアリングで業務を知る ヒアリングから始めた理由 どう進めたか 分かったこと 設計でつまずいたこと AIが作った設計を判断できなかった やりたいことが広がりすぎた ひとりで考え込んでしまった どう乗り越えたか 自分で判断できるように、進め方を決めた 広がった範囲を、目的に合]]></description>
+        </item>
+        <item>
+            <title><![CDATA[GitHub Copilotに登場した「HydraFusion」とは？複数のAIモデルを組み合わせる新機能を解説 | Alternative Architecture DOJO]]></title>
+            <link>https://aadojo.alterbooth.com/entry/2026/10/16/200737</link>
+            <guid isPermaLink="false">https://aadojo.alterbooth.com/entry/2026/10/16/200737</guid>
+            <pubDate>Fri, 16 Oct 2026 11:07:37 GMT</pubDate>
+            <description><![CDATA[GitHub Copilotでは、GPTやClaudeなど、複数のAIモデルを選択して利用できます。また、タスクに応じてモデルを自動選択する「Auto」も提供されています。 一方、2026年9月には、新たに「HydraFusion」が登場しました。モデルの選択画面に表示されるため、新しいAIモデルの一つだと思われるかもしれませんが、実際には少し異なります。 HydraFusionは、複数のAIモデ]]></description>
+        </item>
+        <item>
+            <title><![CDATA[【謎解き解説】GREE Tech Conference 2026 〜謎解き de ゲーム制作〜 | GREE Engineering]]></title>
+            <link>https://labs.gree.jp/blog/2026/10/25339/</link>
+            <guid isPermaLink="false">https://labs.gree.jp/blog/?p=25339</guid>
+            <pubDate>Fri, 16 Oct 2026 09:50:05 GMT</pubDate>
+            <description><![CDATA[はじめに こんにちは！GREE Tech Conference 運営チームの日高です。 GREE Tech Conference 2026 にご来場いただいた皆さま、そして謎解きに挑戦してくださった皆さま、本当にありがと […]]]></description>
+            <author>hidakatakuma</author>
+            <category>Info</category>
+        </item>
+        <item>
+            <title><![CDATA[「AIエージェントキャッチアップ #93 - DeepSeek Harness」を開催しました | Generative Agents Tech Blog]]></title>
+            <link>https://blog.generative-agents.co.jp/entry/2026/10/16/184107</link>
+            <guid isPermaLink="false">https://blog.generative-agents.co.jp/entry/2026/10/16/184107</guid>
+            <pubDate>Fri, 16 Oct 2026 09:41:07 GMT</pubDate>
+            <description><![CDATA[ジェネラティブエージェンツの大嶋です。 「AIエージェントキャッチアップ #93 - DeepSeek Harness」という勉強会を開催しました。 generative-agents.connpass.com アーカイブ動画はこちらです。 www.youtube.com DeepSeek Harness 今回は、すべてをプラグインとして構成するオープンソースのエージェントハーネス「DeepSee]]></description>
+        </item>
+        <item>
+            <title><![CDATA[「引用元にジャンプしたい」から始まった、チャットのリスト描画の設計見直し | YOUTRUST Tech Blog]]></title>
+            <link>https://tech.youtrust.co.jp/entry/2026/10/16/183804</link>
+            <guid isPermaLink="false">https://tech.youtrust.co.jp/entry/2026/10/16/183804</guid>
+            <pubDate>Fri, 16 Oct 2026 09:38:04 GMT</pubDate>
+            <description><![CDATA[こんにちは。YOUTRUSTでWebエンジニアをしている井上（YOUTRUST）です。 朝晩は涼しくなって、窓を開けると秋らしい風が入ってくるようになりましたね。過ごしやすくなったので、積み残していたタスクにもそろそろ向き合いたいところです。 今回は、そんな「いつかやりたい」のひとつだった、チャットルームの引用返信機能について紹介します。近日リリース予定のこの機能ですが、「引用元にジャンプする」と]]></description>
+        </item>
+        <item>
+            <title><![CDATA[本番DBに不要なレコードを数千万件登録してしまった話 | Geekplus Tech Blogのフィード]]></title>
+            <link>https://zenn.dev/geekplus/articles/a615dfe41557d8</link>
+            <guid isPermaLink="false">https://zenn.dev/geekplus/articles/a615dfe41557d8</guid>
+            <pubDate>Fri, 16 Oct 2026 09:00:09 GMT</pubDate>
+            <description><![CDATA[ある日、普段数分以内で完了するはずのバッチジョブからレイテンシーアラートが上がってきました。調査すると、出荷明細の補足情報を登録する処理で、大量のINSERTが発生しています。このままでは、他の入出荷等にも影響を及ぼすため、早急な解消が必要な状況です。この記事では、無駄に増殖してしまったデータとの戦いについてご紹介します。 何が起きていたのか問題のINSERTが発生している箇所を調査したところ、出]]></description>
+            <author>長谷部一希</author>
+        </item>
+        <item>
+            <title><![CDATA[スタディプラスはKaigi on Rails 2026にRubyスポンサーとして協賛しています | Studyplus Engineering Blog]]></title>
+            <link>https://tech.studyplus.co.jp/entry/2026/10/16/172614</link>
+            <guid isPermaLink="false">https://tech.studyplus.co.jp/entry/2026/10/16/172614</guid>
+            <pubDate>Fri, 16 Oct 2026 08:26:14 GMT</pubDate>
+            <description><![CDATA[こんにちは。スタディプラスのカンファレンス/OSSサポートチーム、菅原です。 スタディプラスは、2026年10月16日・17日にベルサール渋谷ガーデンおよびオンラインでハイブリッド開催されている「Kaigi on Rails 2026」にRubyスポンサーとして協賛しています。 kaigionrails.org Kaigi on Rails 2026とは？ Kaigi on Railsのコアコンセ]]></description>
+        </item>
+        <item>
+            <title><![CDATA[今週の新着ブログ 4本_メルカリ様ワークショップでの学び_「AIありき」の問いをやめる ほか(2026.10.9~10.16) | SHIFT Group 技術ブログ]]></title>
+            <link>https://note.shiftinc.jp/n/n7adec391f54e</link>
+            <guid isPermaLink="false">https://note.shiftinc.jp/n/n7adec391f54e</guid>
+            <pubDate>Fri, 16 Oct 2026 08:09:37 GMT</pubDate>
+            <description><![CDATA[こんにちは！「SHIFTグループ技術ブログ」編集部です。お役立ち記事を発信していますので、ぜひご注目ください！！本ブログは、IT技術だけでなくSHIFTグループのあらゆる知見やノウハウを広義の“技術”とし、入社歴や部署の垣根を超えて従業員が公式ブロガーとして記事を執筆しています。続きをみる]]></description>
+        </item>
+        <item>
+            <title><![CDATA[システムが正常でも、お客さまの業務は止まっているかもしれない。SmartHRのCREが挑む「顧客の可観測性」 | SmartHR Tech Blog]]></title>
+            <link>https://tech.smarthr.jp/entry/2026/10/16/164423</link>
+            <guid isPermaLink="false">https://tech.smarthr.jp/entry/2026/10/16/164423</guid>
+            <pubDate>Fri, 16 Oct 2026 07:44:23 GMT</pubDate>
+            <description><![CDATA[こんにちは！SmartHR 採用担当の南石（@nanseki_o）です。2026年7月にSmartHRに2回目の入社をしました。 本日は、出戻りしたら爆誕していた「CRE」というロールについてインタビューした内容をお届けします。 CRE（Customer Reliability Engineering）という言葉を聞いたことはありますか。 技術的な問い合わせに対応するエンジニア、カスタマーサポート]]></description>
+        </item>
+        <item>
+            <title><![CDATA[DynamoDBのレスポンスUnmarshalのアロケーション数を減らすために Unmarshalerを自作する | Pairs Engineering - Medium]]></title>
+            <link>https://medium.com/eureka-engineering/dynamodb%E3%81%AE%E3%83%AC%E3%82%B9%E3%83%9D%E3%83%B3%E3%82%B9unmarshal%E3%81%AE%E3%82%A2%E3%83%AD%E3%82%B1%E3%83%BC%E3%82%B7%E3%83%A7%E3%83%B3%E6%95%B0%E3%82%92%E6%B8%9B%E3%82%89%E3%81%99%E3%81%9F%E3%82%81%E3%81%AB-unmarshaler%E3%82%92%E8%87%AA%E4%BD%9C%E3%81%99%E3%82%8B-d5ee79d69d60</link>
+            <guid isPermaLink="false">https://medium.com/p/d5ee79d69d60</guid>
+            <pubDate>Fri, 16 Oct 2026 07:41:08 GMT</pubDate>
+            <author>Takuya Suehiro</author>
+            <category>dynamodb</category>
+            <category>golang</category>
+        </item>
+        <item>
+            <title><![CDATA[GuardDuty のカスタム検知ルールが Runtime Monitoring に対応したので実際に検知させてみた | 株式会社サイバーセキュリティクラウド　テックブログのフィード]]></title>
+            <link>https://zenn.dev/cscloud_blog/articles/guardduty-custom-detection-rules-runtime-support</link>
+            <guid isPermaLink="false">https://zenn.dev/cscloud_blog/articles/guardduty-custom-detection-rules-runtime-support</guid>
+            <pubDate>Fri, 16 Oct 2026 07:39:46 GMT</pubDate>
+            <description><![CDATA[こんにちは、CSC の CloudFastener というプロダクトで TAM のポジションで働いている平木です！先日、GuardDuty の Custom Detection Rules（カスタム検知ルール）について記事を書きました。https://zenn.dev/cscloud_blog/articles/guardduty-custom-detection-rules-use-caseこの]]></description>
+            <author>平木 佳介</author>
+        </item>
+        <item>
+            <title><![CDATA[Amazon S3 Tables のテーブルを削除してみた。レプリカからの復帰と、同名で作り直したときのレプリケーション失敗 | サーバーワークスエンジニアブログ]]></title>
+            <link>https://blog.serverworks.co.jp/s3-tables-recovery-table-delete-replica</link>
+            <guid isPermaLink="false">https://blog.serverworks.co.jp/s3-tables-recovery-table-delete-replica</guid>
+            <pubDate>Fri, 16 Oct 2026 07:31:32 GMT</pubDate>
+            <description><![CDATA[1本目の記事「Amazon S3 Tables のリカバリ手法を検証してみた（スナップショット巻き戻し・Parquet退避）」では、データを書き間違えた場合の戻し方を確認しました。 blog.serverworks.co.jp この記事では、テーブル自体を誤って削除した場合を確認します。 テーブルを削除すると、スナップショットも一緒に失われるため、スナップショットでは戻せません。 前提は、1本目の]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Amazon S3 Tables のリカバリ手法を検証してみた（スナップショット巻き戻し・Parquet退避） | サーバーワークスエンジニアブログ]]></title>
+            <link>https://blog.serverworks.co.jp/s3-tables-recovery-snapshot-parquet</link>
+            <guid isPermaLink="false">https://blog.serverworks.co.jp/s3-tables-recovery-snapshot-parquet</guid>
+            <pubDate>Fri, 16 Oct 2026 07:31:18 GMT</pubDate>
+            <description><![CDATA[Amazon S3 Tables のデータを書き間違えたとき、どうやって元に戻すのか。 この記事では、次の3つの方法を実際に試し、できたことと限界を整理します。 レプリケーション: テーブルをもう1つのテーブルバケットに複製しておく。 スナップショットの巻き戻し: Iceberg のスナップショットを使って、テーブルを過去の状態に戻す。 Parquet 退避: 日ごとのデータを S3 に Parq]]></description>
+        </item>
+        <item>
+            <title><![CDATA[【GitLab】GitLab Secrets Managerを使ってみた | APC 技術ブログ]]></title>
+            <link>https://techblog.ap-com.co.jp/entry/2026/10/16/162622</link>
+            <guid isPermaLink="false">https://techblog.ap-com.co.jp/entry/2026/10/16/162622</guid>
+            <pubDate>Fri, 16 Oct 2026 07:26:22 GMT</pubDate>
+            <description><![CDATA[こんにちは、クラウド事業部 CI/CD導入支援サービスチームの西野です。 2026年10月15日にリリースされたGitLab 19.5で、GitLab Secrets Managerが一般提供（GA）されました。 about.gitlab.com 本機能は、GitLab Premium/Ultimateプランで利用が可能です。GitLab.com、GitLab self-managedどちらにも対]]></description>
+        </item>
+        <item>
+            <title><![CDATA[ConnectRPCのキャッシュとZustandでフロントエンドの状態管理をする | PKSHAテックブログ のフィード]]></title>
+            <link>https://zenn.dev/pksha/articles/connectrpc-tanstack-query-zustand</link>
+            <guid isPermaLink="false">https://zenn.dev/pksha/articles/connectrpc-tanstack-query-zustand</guid>
+            <pubDate>Fri, 16 Oct 2026 06:08:04 GMT</pubDate>
+            <description><![CDATA[はじめにPKSHA Technology のソフトウェアエンジニアの許です。私が担当する PKSHA AI ヘルプデスクでは、ユーザーが質問を投げると AI が回答し、解決しなければ人間の担当者に引き継がれる、というチャット形式の問い合わせ画面を提供しています。このフロントエンドを作り直すにあたって、Redux Toolkit + RTK Query をやめ、サーバー状態を Connect-RPC]]></description>
+            <author>George Pickleson</author>
+        </item>
+        <item>
+            <title><![CDATA[シャーディングなし、無停止で増強 ― アプリボットの TiDB 導入と本番運用 | アプリボットのフィード]]></title>
+            <link>https://zenn.dev/applibot_tech/articles/6aa91d53981a06</link>
+            <guid isPermaLink="false">https://zenn.dev/applibot_tech/articles/6aa91d53981a06</guid>
+            <pubDate>Fri, 16 Oct 2026 06:06:22 GMT</pubDate>
+            <description><![CDATA[シャーディングの課題弊社では基本的にインフラ構築に AWS を採用しており、従来からデータベースには Amazon Aurora MySQL を利用してきました。しかし近年、弊社では大規模なプロダクトを手掛けることが多く、データのシャーディングが実装の負担になっていました。シャーディング用のインフラ構成や API 設計は通常よりも開発工数がかかり、時にはゲーム仕様にも制限をかけることがありました。]]></description>
+            <author>mino_sota</author>
+        </item>
+        <item>
+            <title><![CDATA[今までやっていたことに、名前がついた ― PMMとして、GTM戦略を3CとVSPROで組み直した話 | Adwaysエンジニアブログ]]></title>
+            <link>https://blog.engineer.adways.net/entry/2026/10/16/150000</link>
+            <guid isPermaLink="false">https://blog.engineer.adways.net/entry/2026/10/16/150000</guid>
+            <pubDate>Fri, 16 Oct 2026 06:00:00 GMT</pubDate>
+            <description><![CDATA[今までやっていたことに、名前がついた。それだけで、機能が動き出す気がした。 PdM中心の開発では「売れるか」が誰の仕事でもなかった。PMMという言葉が、その空白を名指ししてくれた。 技術知識ゼロの営業マンは、まだ顧客の前に立っていた PMMとは「これ売れるの？」を引き受ける人 自分の仕事に名前がない症候群 「で、これどう売るんでしたっけ」が始まる 未来の3Cが、To-Beを決めてくれる PROが抜]]></description>
+        </item>
+        <item>
+            <title><![CDATA[AIで引ければいい、から始めた運用ナレッジ | RAKUS Developers Blog | ラクス エンジニアブログ]]></title>
+            <link>https://tech-blog.rakus.co.jp/entry/20261016/claude-code</link>
+            <guid isPermaLink="false">https://tech-blog.rakus.co.jp/entry/20261016/claude-code</guid>
+            <pubDate>Fri, 16 Oct 2026 06:00:00 GMT</pubDate>
+            <description><![CDATA[はじめに 楽楽販売を担当している梶です。 運用の知識をAIから引ける（AIが検索して参照できる）ようにして、開発フローの概要設計に運用影響の確認を組み込むところまで来たので、その経緯を書きます。最初から全体を設計していたわけではなく、気づきのたびに一段ずつ足してきた記録です。 運用への影響は、できるだけ設計の段階で拾っておきたいと考えています。サービスを利用するお客様の業務を止めないため、そして、]]></description>
+        </item>
+        <item>
+            <title><![CDATA[仕事でのコミュニケーションの本質は、「相手が前に進める状態」をつくること | SHIFT Group 技術ブログ]]></title>
+            <link>https://note.shiftinc.jp/n/nbb1bc5ed5c58</link>
+            <guid isPermaLink="false">https://note.shiftinc.jp/n/nbb1bc5ed5c58</guid>
+            <pubDate>Fri, 16 Oct 2026 05:51:38 GMT</pubDate>
+            <description><![CDATA[「正しく伝えること」がゴールではない続きをみる]]></description>
+        </item>
+        <item>
+            <title><![CDATA[1点差の悔しさから学んだこと。 院生エンジニアが知った AIチーム開発と「働く面白さ」 | SIOS Tech Lab]]></title>
+            <link>https://tech-lab.sios.jp/archives/55094</link>
+            <guid isPermaLink="false">https://tech-lab.sios.jp/?p=55094</guid>
+            <pubDate>Fri, 16 Oct 2026 05:40:50 GMT</pubDate>
+            <description><![CDATA[自己紹介とインターン参加理由 自己紹介 こんにちは！関西学院大学大学院 理工学研究科 情報工学専攻 修士1年の山形隼士です。 普段はスポーツ分野、特に「バスケットボールにおけるAIの活用」をテーマに研究を行っています。 ...1点差の悔しさから学んだこと。 院生エンジニアが知った AIチーム開発と「働く面白さ」 first appeared on SIOS Tech Lab.]]></description>
+            <author>採用担当</author>
+            <category>インターン</category>
+            <category>生成AI</category>
+            <category>Internship2026</category>
+        </item>
+        <item>
+            <title><![CDATA[情報処理安全確保支援士 合格体験記｜独学で使った教材5つと、「午後試験から始める」勉強法 | CloudNative BLOGs]]></title>
+            <link>https://blog.cloudnative.co.jp/articles/registered-infosec-specialist-pass-story/</link>
+            <guid isPermaLink="false">https://blog.cloudnative.co.jp/articles/registered-infosec-specialist-pass-story/</guid>
+            <pubDate>Fri, 16 Oct 2026 05:14:00 GMT</pubDate>
+            <description><![CDATA[情報処理安全確保支援士に独学で合格した体験記。教材5つ、午後（科目B）から始める勉強法、350時間の配分と得点を紹介。2026年度のCBT化と2027年度の新制度も解説します。]]></description>
+            <author>Kazunori Mori</author>
+            <category>セキュリティ</category>
+        </item>
+        <item>
+            <title><![CDATA[QAエンジニアがAI生成E2Eテストの「Pass / Fail の二値判定」をやめた話 | 株式会社COMPASSのフィード]]></title>
+            <link>https://zenn.dev/qubena/articles/0998bf5587d804</link>
+            <guid isPermaLink="false">https://zenn.dev/qubena/articles/0998bf5587d804</guid>
+            <pubDate>Fri, 16 Oct 2026 05:03:55 GMT</pubDate>
+            <description><![CDATA[🍀この記事はこんな方におすすめAI生成のE2Eテスト結果が「Pass」でも本当に検証できているか不安な方スクリーンショットが「期待結果を本当に証明しているか」を疑ったことがある方テスト結果の判定をもう一段階信頼できる形に整えたい方注釈: 本記事で使用しているプロダクト名・ディレクトリ構造などは、説明のための仮称・抽象化です。 はじめに[前回の記事]QAエンジニアがAI生成E2Eテストの「Spec ]]></description>
+            <author>Isuzu</author>
+        </item>
+        <item>
+            <title><![CDATA[【STEM×ミライ応援プロジェクト｜真夏の女子中高生編 #2】身近な疑問をデータで紐解く！ 合宿型キャリア教育プログラム「夏学2026」参加レポート  | Platinum Data Blog by BrainPad ブレインパッド]]></title>
+            <link>https://blog.brainpad.co.jp/entry/2026/10/16/140007</link>
+            <guid isPermaLink="false">https://blog.brainpad.co.jp/entry/2026/10/16/140007</guid>
+            <pubDate>Fri, 16 Oct 2026 05:00:07 GMT</pubDate>
+            <description><![CDATA[ブレインパッドは、NPO法人女子中高生理工系キャリアパスプロジェクト（以下、GSTEM-CPP）が主催するキャリア教育プログラム「女子中高生 夏の学校 〜科学・技術・人との出会い〜（以下、夏学） 」に2023年より参画を開始し、今年が4回目の協力となりました。 このブログでは、「夏学2026」でブレインパッドが協力したプログラムを中心に、レポートをお届けします！当社は、本業である顧客企業に価値貢献]]></description>
+        </item>
+        <item>
+            <title><![CDATA[DevFest 2026 日本各地で開催！最寄りの会場を見つけて今すぐ参加登録しよう! | Google Developers Japan]]></title>
+            <link>https://developers-jp.googleblog.com/2026/10/blog-post.html</link>
+            <guid isPermaLink="false">https://developers-jp.googleblog.com/2026/10/blog-post.html</guid>
+            <pubDate>Fri, 16 Oct 2026 05:00:00 GMT</pubDate>
+            <description><![CDATA[AI、クラウド、最新の開発トレンドに飛び込む準備はできていますか？日本各地で「DevFest 2026」が開催され始めました！DevFest は、Google Developer Groups（GDG）および GDG on Campus が主催する、グローバルなコミュニティ主導のデベロッパーカンファレンスです。プロのエンジニアから学生、テクノロジーに関心のある方まで、Google Develope]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Security Hub にリソースの重要度（Criticality）が追加され、Exposure の優先度付けに使われるようになりました | 株式会社サイバーセキュリティクラウド　テックブログのフィード]]></title>
+            <link>https://zenn.dev/cscloud_blog/articles/security-hub-resource-criticality-support</link>
+            <guid isPermaLink="false">https://zenn.dev/cscloud_blog/articles/security-hub-resource-criticality-support</guid>
+            <pubDate>Fri, 16 Oct 2026 04:19:56 GMT</pubDate>
+            <description><![CDATA[こんにちは、CSC の CloudFastener というプロダクトで TAM のポジションで働いている平木です！Security Hub の Exposure を見ていて、「この Critical、検証環境のリソースなんだけどな…」と思ったことはないでしょうか。同じ脆弱性を持つ EC2 インスタンスでも、決済処理を担う本番サーバーと検証用に放置されたサンドボックスとでは、対応の緊急度がまったく違]]></description>
+            <author>平木 佳介</author>
+        </item>
+        <item>
+            <title><![CDATA[2名のバックエンドチームで、開発をどう回しているか | RevComm Tech Blog]]></title>
+            <link>https://tech.revcomm.co.jp/how-we-run-third-party-team</link>
+            <guid isPermaLink="false">https://tech.revcomm.co.jp/how-we-run-third-party-team</guid>
+            <pubDate>Fri, 16 Oct 2026 03:55:00 GMT</pubDate>
+            <description><![CDATA[はじめに 3rd partyチームのマネージャー 松下です。 本記事では、私が所属している3rd partyチームを紹介します。 このチームでは、RevCommのプロダクト「MiiTel」において、Salesforce・HubSpot・Slackなどといった外部システムをつなぐ機能を中心に開発しています。 私たちのチームは、今年1月に組織され、以後2名の体制です。 少人数のチームではありますが、ア]]></description>
+        </item>
+        <item>
+            <title><![CDATA[OCI Monitoringのカスタム・メトリックでディスク使用率を監視する（その2：Prometheus Exporter 編） | スマートスタイル TECH BLOG]]></title>
+            <link>https://blog.s-style.co.jp/2026/10/16897/</link>
+            <guid isPermaLink="false">https://blog.s-style.co.jp/?p=16897</guid>
+            <pubDate>Fri, 16 Oct 2026 03:50:25 GMT</pubDate>
+            <description><![CDATA[はじめに 前回記事（OCI Monitoringのカスタム・メトリックでディスク使用率を監視する）では、 Python スクリプトと Instance Principal を使って、ディスク使用率をカスタム・メトリックと […]]]></description>
+            <author>kitada</author>
+            <category>Oracle Cloud</category>
+            <category>技術情報</category>
+            <category>Custom Metrics</category>
+            <category>DiskUsage</category>
+            <category>Metrics</category>
+            <category>OCI</category>
+            <category>OCI Monitoring</category>
+        </item>
+        <item>
+            <title><![CDATA[AI時代の監視・障害対応を考えるオンラインイベント——AIを味方につける！開発チームから始める運用改善 を開催します！ | Hatena Developer Blog]]></title>
+            <link>https://developer.hatenastaff.com/entry/2026/10/16/123000</link>
+            <guid isPermaLink="false">https://developer.hatenastaff.com/entry/2026/10/16/123000</guid>
+            <pubDate>Fri, 16 Oct 2026 03:30:00 GMT</pubDate>
+            <description><![CDATA[こんにちは、Mackerelチームの id:chin-hy です！ このたび、はてなSREの id:masayoshi と、そーだいさん id:Soudai が登壇するオンラインイベントを、2026年10月27日（火）11:00〜12:00 に開催します🎉 AIでコードを書くのは当たり前になってきたけど、監視や障害対応にAIを使うのはまだ手探り──そんな実感を持っているエンジニアの方も多いのではな]]></description>
+        </item>
+        <item>
+            <title><![CDATA[【2026年版】Cloudflare Workers入門｜作ったアプリを公開する方法 | 株式会社ソニックムーブのフィード]]></title>
+            <link>https://zenn.dev/sonicmoov/articles/ea5f6f0f4f1325</link>
+            <guid isPermaLink="false">https://zenn.dev/sonicmoov/articles/ea5f6f0f4f1325</guid>
+            <pubDate>Fri, 16 Oct 2026 03:22:08 GMT</pubDate>
+            <description><![CDATA[はじめにAI と一緒にアプリを作る人が増え、「できたけど、どこで公開しよう？」と悩む人も多いと思います。この記事では、その公開先として Cloudflare Workers への載せ方を、アプリの種類別にまとめます。SPA や主要なフレームワークなら、npx wrangler deploy を1回実行するだけ で公開できます。!2026年10月15日時点の情報で、アプリの載せ方は実際にデプロイして]]></description>
+            <author>SMV-深井</author>
+        </item>
+        <item>
+            <title><![CDATA[代表取締役 藤崎が、木更津工業高等専門学校にて講義を行いました | 株式会社ハートビーツ（HEARTBEATS Corporation）｜AWS・クラウド・サーバーなどのインフラ運用を24時間365日サポート]]></title>
+            <link>https://heartbeats.jp/info/topics/topics-20261016/</link>
+            <guid isPermaLink="false">https://stg.heartbeats.jp/?p=11997</guid>
+            <pubDate>Fri, 16 Oct 2026 03:14:17 GMT</pubDate>
+            <description><![CDATA[国立木更津工業高等専門学校の「キャリアデザイン」の授業にてお時間をいただき、弊社代表の藤崎がオンラインでの特別講義を行いました。 当日は、藤崎より自身のキャリアを交えた「ハートビーツの創業ストーリー」をはじめ、弊社の企業投稿 代表取締役 藤崎が、木更津工業高等専門学校にて講義を行いました は 株式会社ハートビーツ（HEARTBEATS Corporation）｜AWS・クラウド・サーバーなどのイン]]></description>
+            <author>kudo_mail</author>
+            <category>トピックス</category>
+        </item>
+        <item>
+            <title><![CDATA[施策立案からQAまで：AIエージェントで回す開発フローの全体像とアーキテクチャ | Findy Tech Blog]]></title>
+            <link>https://tech.findy.co.jp/entry/2026/10/16/120000</link>
+            <guid isPermaLink="false">https://tech.findy.co.jp/entry/2026/10/16/120000</guid>
+            <pubDate>Fri, 16 Oct 2026 03:00:00 GMT</pubDate>
+            <description><![CDATA[こんにちは。ファインディ株式会社でプリンシパルエンジニアをしている戸田です。 ファインディでは、施策の立案からIssueの生成、タスク分解、AIエージェントによる並列実装やQAまで、開発フローの各所にAIエージェントを組み込んでいます。 この記事では、開発フロー全体のアーキテクチャを図で示し、構成要素ごとに役割を解説します。PM、開発、QAのそれぞれでエージェントが何を担い、人間がどこで判断してい]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Udemyのサブスクを3ヶ月使って気づいた。「サブスクか買い切りか」という問いは間違っていた | 分析屋]]></title>
+            <link>https://note.com/bunsekiya_tech/n/n288af3cbbcbf</link>
+            <guid isPermaLink="false">https://note.com/bunsekiya_tech/n/n288af3cbbcbf</guid>
+            <pubDate>Fri, 16 Oct 2026 03:00:00 GMT</pubDate>
+            <description><![CDATA[分析屋の柵木です。仕事柄、常に新しい技術スタックや知識のキャッチアップを求められることもあり、日頃からUdemyには大変お世話になっています。そんな中でふと疑問に思ったのが、「サブスクと買い切り、結局自分にはどちらがいいのだろう？」ということでした。ネットで検索すると、「サブスクの方がお得」「◯講座以上受講するならサブスク」といった比較記事は数多く見つかります。料金や講座数を比較した情報も多く、一]]></description>
+        </item>
+        <item>
+            <title><![CDATA[技術書を年に数冊しか買わない自分に、O'Reillyのサブスク年$150は割に合うか（ACM経由で契約してMCPまで） | 株式会社ソニックムーブのフィード]]></title>
+            <link>https://zenn.dev/sonicmoov/articles/oreilly-subscription-acm</link>
+            <guid isPermaLink="false">https://zenn.dev/sonicmoov/articles/oreilly-subscription-acm</guid>
+            <pubDate>Fri, 16 Oct 2026 02:53:28 GMT</pubDate>
+            <description><![CDATA[はじめにオライリーの本は、技術書として信頼できるので、これまでも必要なものを買って読んでいました。自分は紙の本のほうが読みやすいタイプです。ただ、オライリーの本は分厚いものが多く、持ち歩くと重いのが難点でした。そんなとき、オライリーの本がオンラインのサブスクで読み放題になると知って、魅力を感じました。1冊数千円すると、気になっても買うまでには至らない本がけっこうあります。そういう本も気軽に開けるな]]></description>
+            <author>m.okamura</author>
+        </item>
+        <item>
+            <title><![CDATA[Software Design 2026年11月号に「落ちないWebアプリケーションのための設計思想」を寄稿しました | MIXI DEVELOPERS Tech Blogのフィード]]></title>
+            <link>https://zenn.dev/mixi/articles/5ffcdcaca61176</link>
+            <guid isPermaLink="false">https://zenn.dev/mixi/articles/5ffcdcaca61176</guid>
+            <pubDate>Fri, 16 Oct 2026 02:32:44 GMT</pubDate>
+            <description><![CDATA[はじめに本日（2026年10月16日）発売の「Software Design 2026年11月号」における第1特集「落ちないWebアプリケーションの作り方」に寄稿しました。担当したのは第1章「落ちないWebアプリケーションのための設計思想」です。https://gihyo.jp/magazine/SD/archive/2026/202611 第1章で書いたこと第1章では、「落ちないWebアプリケー]]></description>
+            <author>k-asm</author>
+        </item>
+        <item>
+            <title><![CDATA[ベクトルDBを使わない「階層ナビゲーション型RAG」を作って、ベクトルDB版RAGと比較してみた | 株式会社メンバーズ AIフォーオールカンパニーのフィード]]></title>
+            <link>https://zenn.dev/aiforall/articles/8e1803396534de</link>
+            <guid isPermaLink="false">https://zenn.dev/aiforall/articles/8e1803396534de</guid>
+            <pubDate>Fri, 16 Oct 2026 02:30:05 GMT</pubDate>
+            <description><![CDATA[階層ナビゲーション型RAGとは「階層ナビゲーション型RAG」は、ベクトルDBを使わずに文書を探すRAGです。準備段階で文書の山から階層的な目次を自動で作っておき、質問が来たらLLMがその目次を上から順に辿って、答えが書かれていそうな文書を選びます。質問のたびにベクトル検索をしない点が、一般的なベクトルDB版RAGとの違いです。この記事では、この仕組みを論文の手法(Corpus2Skill)を参考に]]></description>
+            <author>nishina</author>
+        </item>
+        <item>
+            <title><![CDATA[開発・検証環境のPR承認と負荷試験をAIに任せる ── SRE待ちを減らす線引きとハーネス | ZOZO TECH BLOG]]></title>
+            <link>https://techblog.zozo.com/entry/ai-pr-approval-and-loadtest-automation</link>
+            <guid isPermaLink="false">https://techblog.zozo.com/entry/ai-pr-approval-and-loadtest-automation</guid>
+            <pubDate>Fri, 16 Oct 2026 02:00:00 GMT</pubDate>
+            <description><![CDATA[はじめに こんにちは、SRE部 検索基盤SREブロックの花房と富田です。普段は、ZOZOTOWNの検索基盤における信頼性向上やコスト改善、インフラ運用を担当しています。 検索基盤の開発案件では、開発者とSREが役割を分担して本番リリースまでの作業を実施しています。その中で、インフラリポジトリのPull Request（PR）レビューと、リリース前の負荷試験はSREの作業待ちになることがありました。]]></description>
+        </item>
+        <item>
+            <title><![CDATA[AIエージェントの監視、思考を見るか行動を見るか ～NRIネットコム TECH AND DESIGN STUDY #115～  | NRIネットコムBlog]]></title>
+            <link>https://tech.nri-net.com/entry/tech_and_design_study_115</link>
+            <guid isPermaLink="false">https://tech.nri-net.com/entry/tech_and_design_study_115</guid>
+            <pubDate>Fri, 16 Oct 2026 01:19:09 GMT</pubDate>
+            <description><![CDATA[こんにちは、ブログ運営担当の遠藤です。 11/5（木）12:00～13:00 当社主催の勉強会「NRIネットコム TECH AND DESIGN STUDY #115」が開催されます!! 発表概要 AIエージェントに調査や運用を任せる場面が増える一方、2026年にはOpenAIやAnthropicで、エージェントが想定外の経路で外部システムに到達する事案が相次ぎました。 本セッションでは、運用監視]]></description>
+        </item>
+        <item>
+            <title><![CDATA[アプリの脆弱性対応を改善する、Lightwellのご紹介 | 赤帽エンジニアブログ]]></title>
+            <link>https://rheb.hatenablog.com/entry/2026/10/16/100953</link>
+            <guid isPermaLink="false">https://rheb.hatenablog.com/entry/2026/10/16/100953</guid>
+            <pubDate>Fri, 16 Oct 2026 01:09:53 GMT</pubDate>
+            <description><![CDATA[みなさま、はじめまして。 パートナー様を担当しているEcosystem SAの萩原と申します。 昨今、サイバー攻撃による情報漏洩のニュースを目にしない日はないくらいに被害が増えていますね。特にAIが急速に進化している現在、攻撃者側もAIを駆使してソフトウェアの脆弱性を防御を上回る速度で発見し、攻撃を仕掛けてくるようになってきていることも要因の一つになっていると考えられます。 最近ではOSやクラウド]]></description>
+        </item>
+        <item>
+            <title><![CDATA[【Microsoft Fabric】Copilot容量の概要と実装方法 後編 | JBS Tech Blog]]></title>
+            <link>https://blog.jbs.co.jp/entry/2026/10/16/100009</link>
+            <guid isPermaLink="false">https://blog.jbs.co.jp/entry/2026/10/16/100009</guid>
+            <pubDate>Fri, 16 Oct 2026 01:00:09 GMT</pubDate>
+            <description><![CDATA[Microsoft Fabric（以降、Fabricと記載）は、データ収集・加工・分析・可視化、さらにAIによるインサイト生成まで、データ活用に必要な機能を一つに統合したクラウドベースの分析プラットフォームです。 前編ではCopilot容量の概要を紹介しましたが、本記事（後編）では、Copilot容量の実装方法について紹介します。 前回記事：【Microsoft Fabric】Copilot容量の]]></description>
+        </item>
+        <item>
+            <title><![CDATA[【イベント告知】CREミートアップ「CRE Camp #7：現場でつくるユーザー信頼性（トークと対話のセッション）」をANDPAD STADIUMで開催します！ | ANDPAD Tech Blog]]></title>
+            <link>https://tech.andpad.co.jp/entry/2026/10/16/100000</link>
+            <guid isPermaLink="false">https://tech.andpad.co.jp/entry/2026/10/16/100000</guid>
+            <pubDate>Fri, 16 Oct 2026 01:00:00 GMT</pubDate>
+            <description><![CDATA[はじめまして！ANDPAD CREチームの新田と申します。 4月に入社し10月で半年になるのですが、今回テックブログ初投稿となります。 よろしくお願いいたします！ さて、本記事では今月22日（木）にCRE関連イベントを開催することをお知らせします。イベント名は「CRE Camp #7：現場でつくるユーザー信頼性（トークと対話のセッション）」で、アンドパッド東京オフィスにて行われます。 CRE Ca]]></description>
+        </item>
+        <item>
+            <title><![CDATA[ デザイナーがAIでフロントエンド実装に取り組んだ記録 | for Startups Tech Blog]]></title>
+            <link>https://tech.forstartups.com/entry/2026/10/16/100000</link>
+            <guid isPermaLink="false">https://tech.forstartups.com/entry/2026/10/16/100000</guid>
+            <pubDate>Fri, 16 Oct 2026 01:00:00 GMT</pubDate>
+            <description><![CDATA[コーディングに苦手意識があるUI/UXデザイナーが、Claude Codeを使って社内システムのフロントエンド実装に取り組んだ4ヶ月半の記録。チーム体制、実績データ、AIと進める上での気づきをまとめました。]]></description>
+        </item>
+        <item>
+            <title><![CDATA[【3Dアートディレクター】面接官に聞いてみた！＜前編＞ | アドグローブブログ | 渋谷のIT会社]]></title>
+            <link>https://blog.adglobe.co.jp/entry/2026/10/16/111723</link>
+            <guid isPermaLink="false">https://blog.adglobe.co.jp/entry/2026/10/16/111723</guid>
+            <pubDate>Fri, 16 Oct 2026 01:00:00 GMT</pubDate>
+            <description><![CDATA[アドグローブでの3Dアートディレクター職の役割や採用で重視されるスキルについて、ゲーム事業本部のお二人にインタビューしました。転職を考えている方やアドグローブに興味がある方に必見の詳しい情報をお届けします。]]></description>
+        </item>
+        <item>
+            <title><![CDATA[ シノニムを増やしても精度が上がらない原因は何？ Amazon Lex V2カスタム語彙を検証してみた | サーバーワークスエンジニアブログ]]></title>
+            <link>https://blog.serverworks.co.jp/study-amazon-connect-202610-2</link>
+            <guid isPermaLink="false">https://blog.serverworks.co.jp/study-amazon-connect-202610-2</guid>
+            <pubDate>Fri, 16 Oct 2026 00:25:00 GMT</pubDate>
+            <description><![CDATA[はじめに こんにちは、サーバーワークス橋本です。ようやく寒くなってきて猫が布団に潜り込んでくる季節になりました。 しかし、私は寝返りが激しいので中に入ってこないことでキャットタワーの上から監視されながら寝るという感じになります。 さて、今回はAmazon ConnectとAmazon Lexの組み合わせで以下の点でハマってしまったので検証したことをブログで展開したいと思います。 「数字や型番を含む]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Google Workspaceの管理者ロールを期限付きで付与する承認ワークフローをGASで構築する | G-gen Tech Blog]]></title>
+            <link>https://blog.g-gen.co.jp/entry/google-workspace-temporary-admin-role-approval</link>
+            <guid isPermaLink="false">https://blog.g-gen.co.jp/entry/google-workspace-temporary-admin-role-approval</guid>
+            <pubDate>Fri, 16 Oct 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[G-gen の三浦です。当記事では、Google Apps Script（以下、GAS）を使い、申請と承認を経て Google Workspace の管理者ロールを有効期限付きで付与する仕組みを紹介します。 概要 Google Workspace の管理者ロール 一定期間有効な管理者ロールの割り当て 当記事で構築する申請フロー 注意点 検証の手順 事前準備 スプレッドシートとスクリプトの作成 Ad]]></description>
+        </item>
+        <item>
+            <title><![CDATA[過去に書いたプログラムをAIにレビューさせてみた | KENTEM TechBlog]]></title>
+            <link>https://tech.kentem.jp/entry/2026/10/16/090000</link>
+            <guid isPermaLink="false">https://tech.kentem.jp/entry/2026/10/16/090000</guid>
+            <pubDate>Fri, 16 Oct 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[KENTEMに新卒で入社して2年目のS・Kと申します。 さっそくですが、皆さんは昔の自分が書いたコードを見返すことはありますか？ 今回は、昔書いたコードをAIにレビューしてもらって問題点がないかを確認してみた記事です。 当時作成したプログラムの概要 Claudeにコードをレビューしてもらう 特定の入力値だけ動かない 原因：85回のはずのループが86回動いていた 他にもこのような指摘がありました ま]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Rails 開発者が未経験の Kotlin + Spring Boot を AI 支援で 2 時間触ってみた | テコテック開発者ブログ]]></title>
+            <link>https://tec.tecotec.co.jp/entry/2026/10/16/090000</link>
+            <guid isPermaLink="false">https://tec.tecotec.co.jp/entry/2026/10/16/090000</guid>
+            <pubDate>Fri, 16 Oct 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[はじめに システム開発第二事業部の高山です。普段はエンジニアとして、主にRubyを使用してバックエンドの開発を行っています。 「クライアントの別システムが Kotlin で動いているので、技術スタックを合わせて新規開発が可能か検討して欲しい」。普段は Rails で開発しているチームに、ある日そんな相談が降ってきました。チーム内に Kotlin や Spring Boot の開発経験者がいない状態]]></description>
+        </item>
+        <item>
+            <title><![CDATA[組織導入でClaudeとKiroをどう選ぶか考えてみた | サーバーワークスエンジニアブログ]]></title>
+            <link>https://blog.serverworks.co.jp/2026/10/16/081633</link>
+            <guid isPermaLink="false">https://blog.serverworks.co.jp/2026/10/16/081633</guid>
+            <pubDate>Thu, 15 Oct 2026 23:16:33 GMT</pubDate>
+            <description><![CDATA[はじめに 前提: AWSでClaudeを使うなら、Bedrock経由で意外と揃う AIエージェントの違いは正直あまり感じない コストと統制は、Claude側も追いついている コストの上限 可視化と統制 残る明確な違い: 複数ベンダーのモデルを使い分けられる 誰にとってKiroが候補になるか 所感 まとめ はじめに こんにちは、アプリケーションサービス本部ディベロップメントサービス3課の北出です。 ]]></description>
+        </item>
+        <item>
+            <title><![CDATA[お盆ど真ん中に100人超！社内イベント「Codex祭り Sol Ultra」を開催！ | CyberAgent Developers Blog | サイバーエージェント デベロッパーズブログ]]></title>
+            <link>https://developers.cyberagent.co.jp/blog/archives/65665/</link>
+            <guid isPermaLink="false">https://developers.cyberagent.co.jp/blog/?p=65665</guid>
+            <pubDate>Thu, 15 Oct 2026 23:00:49 GMT</pubDate>
+            <description><![CDATA[お盆ど真ん中に100人超！社内イベント「Codex祭り Sol Ultra」を開催！ Codex a ...]]></description>
+            <author>Ken Takao</author>
+            <category>エンジニア</category>
+            <category>AI</category>
+            <category>ChatGPT</category>
+            <category>Codex</category>
+            <category>OpenAI</category>
+            <category>Scheduled</category>
+            <category>セミナー</category>
+        </item>
+        <item>
+            <title><![CDATA[VLAのベンチマークまとめ：標準シミュレーションから頑健性・記憶・安全・実機・産業まで | ヘッドウォータースのフィード]]></title>
+            <link>https://zenn.dev/headwaters/articles/4f283c6ed57127</link>
+            <guid isPermaLink="false">https://zenn.dev/headwaters/articles/4f283c6ed57127</guid>
+            <pubDate>Thu, 15 Oct 2026 23:00:05 GMT</pubDate>
+            <description><![CDATA[概要ロボットは機体、カメラ、制御方式が異なるため、同じ条件での比較が難しい分野です。近年は物理シミュレータや公開評価基盤が整い、ロボットのためのモデルであるVision-Language-Action（VLA）モデルを共通条件で評価する研究が増えています。本稿では、VLAに関係するベンチマークを、対応論文・評価対象・環境の観点から整理します。さらに、標準ベンチマークの高い成功率だけでモデルの実力を]]></description>
+            <author>T. Shimotomai, PhD.</author>
+        </item>
+        <item>
+            <title><![CDATA[【AI時代の問いのデザイン】第2回：5W1H / SCQAで「なんか違う答え」を減らす | SHIFT Group 技術ブログ]]></title>
+            <link>https://note.shiftinc.jp/n/nd1be51190cf7</link>
+            <guid isPermaLink="false">https://note.shiftinc.jp/n/nd1be51190cf7</guid>
+            <pubDate>Thu, 15 Oct 2026 23:00:00 GMT</pubDate>
+            <description><![CDATA[こんにちは。株式会社SHIFTの能力開発部で検定や教育制度を開発をしている林 稔明（りんりん）です！ 日々、社員のみなさんの能力・スキルをどう伸ばせば現場で活躍できる人材になるのか、業務や作業を分解したり、人の行動について考えたりしています。続きをみる]]></description>
+        </item>
+        <item>
+            <title><![CDATA[【AI時代の問いのデザイン】第1回：ゴールデンサークルで「AIありき」の問いをやめる | SHIFT Group 技術ブログ]]></title>
+            <link>https://note.shiftinc.jp/n/n986a75544296</link>
+            <guid isPermaLink="false">https://note.shiftinc.jp/n/n986a75544296</guid>
+            <pubDate>Thu, 15 Oct 2026 23:00:00 GMT</pubDate>
+            <description><![CDATA[こんにちは。株式会社SHIFTの能力開発部で検定や教育制度を開発をしている林 稔明（りんりん）です！ 日々、社員のみなさんの能力・スキルをどう伸ばせば現場で活躍できる人材になるのか、業務や作業を分解したり、人の行動について考えたりしています。続きをみる]]></description>
+        </item>
+        <item>
+            <title><![CDATA[カンプなしで既存 UI を再現する Claude の Skill を 1 年目エンジニアが作って分かったこと | TECHSCORE BLOG]]></title>
+            <link>https://blog.techscore.com/entry/2026/10/16/080000</link>
+            <guid isPermaLink="false">https://blog.techscore.com/entry/2026/10/16/080000</guid>
+            <pubDate>Thu, 15 Oct 2026 23:00:00 GMT</pubDate>
+            <description><![CDATA[カンプがなくても既存 UI を再現した画面を Claude に実装させる Skill を作りました。実コードを正とした情報収集、検証ステータスと情報源の優先順位による信頼度の伝え方、ドライランで見つけた欠陥、自己採点 60 点を踏まえた運用までを紹介します。]]></description>
+        </item>
+        <item>
+            <title><![CDATA[職能を越えてデザインの品質と向き合うことの難しさとこれから | 株式会社ソニックムーブのフィード]]></title>
+            <link>https://zenn.dev/sonicmoov/articles/design-standardization-project-collaboration</link>
+            <guid isPermaLink="false">https://zenn.dev/sonicmoov/articles/design-standardization-project-collaboration</guid>
+            <pubDate>Thu, 15 Oct 2026 21:30:05 GMT</pubDate>
+            <description><![CDATA[はじめに2025年12月に、社内のデザイン標準化プロジェクトの振り返りと今後の展望をまとめました。https://zenn.dev/sonicmoov/articles/design-standardization-project-look-back-2025前回の記事では、今後の方向性として下記の4つを挙げていました。問い合わせの対応フローの自動化デザインデータの品質基準の策定デザインレビューの]]></description>
+            <author>pugipugiii</author>
+        </item>
+        <item>
+            <title><![CDATA[ラージテストはどこまでミディアムに落とせるか | Pepabo Tech Portal]]></title>
+            <link>https://tech.pepabo.com/2026/10/16/large-test-placement/</link>
+            <guid isPermaLink="false">https://tech.pepabo.com/2026/10/16/large-test-placement/</guid>
+            <pubDate>Thu, 15 Oct 2026 15:00:00 GMT</pubDate>
+            <description><![CDATA[こんにちは。ロリポップ・ムームードメイン事業部の nacal です。ゲームサーバーのホスティングサービス ロリポップ! for Gamers を開発しています。for Gamersのテストの方針は、2年前におおよそ決まりました。当時の判断は次の記事で公開されています。短期間での新規プロダクト開発における「コスパの良い」Goのテスト戦略（GMO Developers）その方針は、「実際にちゃんと動く]]></description>
+        </item>
+        <item>
+            <title><![CDATA[E2E テストのフィードバックループを小さくするためのプラクティス | フューチャー技術ブログ]]></title>
+            <link>https://future-architect.github.io/articles/20261016a/</link>
+            <guid isPermaLink="false">https://future-architect.github.io/articles/20261016a/</guid>
+            <pubDate>Thu, 15 Oct 2026 15:00:00 GMT</pubDate>
+            <description><![CDATA[コーディングエージェントの普及で E2E テストの比重が上がるなか、テスト基盤の側でフィードバックループを小さくする4つのプラクティス（デプロイレスのテスト実行・テストの並列化・自己完結型のテストレポート・分散トレーシング）を紹介します。]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Claude Codeの自動コンパクト、何で・どこで・いつ効かせるか（/autocompact・autoCompactWindow・idle | 株式会社ZOZOのフィード]]></title>
+            <link>https://zenn.dev/zozotech/articles/1a26d1775c06f7</link>
+            <guid isPermaLink="false">https://zenn.dev/zozotech/articles/1a26d1775c06f7</guid>
+            <pubDate>Thu, 15 Oct 2026 12:26:15 GMT</pubDate>
+            <description><![CDATA[概要Claude Codeは、会話がコンテキストウィンドウの上限に近づくと、古い履歴を要約して空きを作ります。この仕組みを自動コンパクト（auto-compaction）と呼びます。これまでは、settings.jsonのenvにCLAUDE_AUTOCOMPACT_PCT_OVERRIDEを書いてパーセンテージを指定するだけで済ませていました。v2.1.288〜v2.1.300のリリースノートを]]></description>
+            <author>さっと</author>
+        </item>
+        <item>
+            <title><![CDATA[ループエンジニアリングの実践：Claude Code とカスタム lint を組み合わせた自己改善型コードレビューシステムの構築と検証 | エンジニアブログ - GMOインターネットグループ グループ研究開発本部]]></title>
+            <link>https://recruit.group.gmo/engineer/jisedai/blog/loop-engineering-custom-lint-review/</link>
+            <guid isPermaLink="false">https://recruit.group.gmo/engineer/jisedai/?p=33151</guid>
+            <pubDate>Thu, 15 Oct 2026 10:18:40 GMT</pubDate>
+            <description><![CDATA[導入：AI コードレビューの課題 こんにちは。次世代システム研究室のN.Uです。 Claude Code や Codex のようなコーディングエージェントに実装を任せるようになって、コードを書く速さは大きく上がりました。 […]The post ループエンジニアリングの実践：Claude Code とカスタム lint を組み合わせた自己改善型コードレビューシステムの構築と検証 first app]]></description>
+            <author>naoyuki-ueda</author>
+            <category>エンジニアブログ</category>
+            <category>AIコードレビュー</category>
+            <category>Claude Code</category>
+            <category>Github Actions</category>
+            <category>LLM</category>
+            <category>コードレビュー</category>
+            <category>ハーネスエンジニアリング</category>
+            <category>ループエンジニアリング</category>
+            <category>生成AI</category>
+            <category>静的解析</category>
+        </item>
+        <item>
+            <title><![CDATA[ICFPC2026 参加記 | ALGO ARTISのフィード]]></title>
+            <link>https://zenn.dev/algoartis/articles/b5dd3c401d5dd4</link>
+            <guid isPermaLink="false">https://zenn.dev/algoartis/articles/b5dd3c401d5dd4</guid>
+            <pubDate>Thu, 15 Oct 2026 10:04:41 GMT</pubDate>
+            <description><![CDATA[ICFPCとは？ICFPC（International Conference on Functional Programming Contest）は、国際会議 ICFP が主催するプログラミングコンテストです。毎年 7 月頃に開催されており、今年で 29 回目。前世紀から続く、非常に歴史のあるコンテストです。特徴としては、人数制限なしのチーム戦コンテスト時間は 72 時間。マラソン系のコンテストと]]></description>
+            <author>がんぽん</author>
+        </item>
+        <item>
+            <title><![CDATA[インターネットゲートウェイって、構成図のどこに置けばいいの？本気出して考えてみた | サーバーワークスエンジニアブログ]]></title>
+            <link>https://blog.serverworks.co.jp/internet-gateway-is-doko</link>
+            <guid isPermaLink="false">https://blog.serverworks.co.jp/internet-gateway-is-doko</guid>
+            <pubDate>Thu, 15 Oct 2026 09:09:46 GMT</pubDate>
+            <description><![CDATA[インターネットゲートウェイって、構成図のどこに置けばいいの問題 AWS の構成図を描いていると、わりとどうでもいいところで手が止まることがあります。 今回は、その代表格「インターネットゲートウェイ（IGW）を構成図のどこに、どう描くか」というしょーもない、でも地味に気になる話です。 構成図レビューをしていて「IGW が VPC の枠線に重なってるのがモヤモヤする」という話になり、せっかくなので整理]]></description>
+        </item>
+        <item>
+            <title><![CDATA[【詳細】Acronis Cyber Protect Cloud バックアップ編：環境を問わないデータ保護とユニバーサルリストア | DENET 技術ブログ]]></title>
+            <link>https://blog.denet.co.jp/backup_and_security3/</link>
+            <guid isPermaLink="false">https://blog.denet.co.jp/?p=20974</guid>
+            <pubDate>Thu, 15 Oct 2026 09:05:11 GMT</pubDate>
+            <description><![CDATA[投稿 【詳細】Acronis Cyber Protect Cloud バックアップ編：環境を問わないデータ保護とユニバーサルリストア は DENET 技術ブログ に最初に表示されました。]]></description>
+            <author>深見和正</author>
+            <category>バックアップ全般</category>
+        </item>
+        <item>
+            <title><![CDATA[【Salesforce】Agent Script入門｜Agentforceの従業員エージェントを作ってみた | 株式会社アクトビのフィード]]></title>
+            <link>https://zenn.dev/actbe_tech/articles/57561ffebaf9ed</link>
+            <guid isPermaLink="false">https://zenn.dev/actbe_tech/articles/57561ffebaf9ed</guid>
+            <pubDate>Thu, 15 Oct 2026 09:00:14 GMT</pubDate>
+            <description><![CDATA[はじめにAgentforceの指示文に「必ず取引先を確認してから回答してください」と書いたのに、確認が飛ばされて、そのまま回答されてしまった。Agentforceでエージェントを作っていると、こんな場面に出会うことがあります。LLMは賢いですが、少し気まぐれなところがあります。「必ず」と書いても、必ず動くとは限りません。業務で使うとなると、「ここだけは毎回同じ動きをしてほしい」という部分が出てきま]]></description>
+            <author>福西</author>
+        </item>
+        <item>
+            <title><![CDATA[基礎から理解するMicrosoft Foundry②～Models編～ | APC 技術ブログ]]></title>
+            <link>https://techblog.ap-com.co.jp/entry/2026/10/15/180000</link>
+            <guid isPermaLink="false">https://techblog.ap-com.co.jp/entry/2026/10/15/180000</guid>
+            <pubDate>Thu, 15 Oct 2026 09:00:00 GMT</pubDate>
+            <description><![CDATA[目次 目次 はじめに 1. Microsoft FoundryのModelsとは？ 1-1. モデルカタログとは？ 1-2. モデルのデプロイについて 2. モデルのデプロイ方式について 2-1. Global Standard 2-2. Data Zone Standard 2-3. Standard 2-4. Provisioned系 2-5. Batch系 3. モデルを選ぶ際のポイント 3]]></description>
+        </item>
+        <item>
+            <title><![CDATA[なぜ今、ゼロトラストが必要なのか？ その推進が難しい理由を考える | TechHarmony]]></title>
+            <link>https://blog.usize-tech.com/zero-trust-approach/</link>
+            <guid isPermaLink="false">https://blog.usize-tech.com/?p=66340</guid>
+            <pubDate>Thu, 15 Oct 2026 08:57:21 GMT</pubDate>
+            <description><![CDATA[こんにちは。SCSKセキュリティのふくしまです。 近年、多くの組織でゼロトラストへの取り組みが進んでいます。 一方で、「何から始めればよいのかわからない」「対策の優先順位を決められない」といった課題を抱えるケースも少なく […]]]></description>
+            <author>ふくしま</author>
+            <category>クラウドセキュリティ</category>
+            <category>ZTA</category>
+            <category>セキュリティ</category>
+            <category>ゼロトラスト</category>
+        </item>
+        <item>
+            <title><![CDATA[今週の新着ブログ 6本(2026.10.2~10.8)_働き方：自分を壊す思い込み_AI面接ツールを社内開発し約5,000人が受験 ほか | SHIFT Group 技術ブログ]]></title>
+            <link>https://note.shiftinc.jp/n/nac57328fd619</link>
+            <guid isPermaLink="false">https://note.shiftinc.jp/n/nac57328fd619</guid>
+            <pubDate>Thu, 15 Oct 2026 08:44:13 GMT</pubDate>
+            <description><![CDATA[こんにちは！「SHIFTグループ技術ブログ」編集部です。お役立ち記事を発信していますので、ぜひご注目ください！！本ブログは、IT技術だけでなくSHIFTグループのあらゆる知見やノウハウを広義の“技術”とし、入社歴や部署の垣根を超えて従業員が公式ブロガーとして記事を執筆しています。続きをみる]]></description>
+        </item>
+        <item>
+            <title><![CDATA[AI ではベテランエンジニアも全員ジュニアからやり直しになる（翻訳） | TechRacho]]></title>
+            <link>https://techracho.bpsinc.jp/hachi8833/2026_10_15/160003</link>
+            <guid isPermaLink="false">https://techracho.bpsinc.jp/?p=160003</guid>
+            <pubDate>Thu, 15 Oct 2026 08:30:28 GMT</pubDate>
+            <description><![CDATA[概要 元サイトの許諾を得て翻訳・公開いたします。 英語記事: We are all juniors again | Arkency Blog 原文公開日: 2026年08月26日 原著者: Tomasz Stolarczyk 日本語タイトルは内容に即したものにしました。 AIではベテランエンジニアも全員ジュニアからやり直しになる（翻訳） 昔々、まだアキネイターが「高度なAI」としてインターネット上]]></description>
+            <author>hachi8833</author>
+            <category>ライフ</category>
+            <category>AI</category>
+            <category>翻訳記事</category>
+        </item>
+        <item>
+            <title><![CDATA[Python3.15で追加された番兵値が少し気になったので触ってみた | 株式会社メンバーズ AIフォーオールカンパニーのフィード]]></title>
+            <link>https://zenn.dev/aiforall/articles/7e1f49656c3f05</link>
+            <guid isPermaLink="false">https://zenn.dev/aiforall/articles/7e1f49656c3f05</guid>
+            <pubDate>Thu, 15 Oct 2026 08:30:05 GMT</pubDate>
+            <description><![CDATA[Python3.15ではいくつかの機能が追加されました。その中で気になったのが「番兵値（センチネル値）」でした。これは、PEP661に定義されており、現在は最新のドキュメント（3.15のドキュメント)でも確認することができます。 番兵値（センチネル値）番兵（Sentinel）の言葉としての意味は以下のとおりです。軍隊で陣地や基地の見張りをする兵士プログラムに於いては、見張りというと語弊がありますが]]></description>
+            <author>へいた</author>
+        </item>
+        <item>
+            <title><![CDATA[国産モデル sarashina3-mini は日本語の推敲で何を変えるのか？ | ALGO ARTISのフィード]]></title>
+            <link>https://zenn.dev/algoartis/articles/03ca12150ccbee</link>
+            <guid isPermaLink="false">https://zenn.dev/algoartis/articles/03ca12150ccbee</guid>
+            <pubDate>Thu, 15 Oct 2026 08:30:03 GMT</pubDate>
+            <description><![CDATA[こんにちは。ALGO ARTISの大賀 愛一郎です。yomiyasuの開発者でもあります。最近、日本語性能が高いモデルが相次いで公開されていますね。2026年10月13日、SB Intuitions は、国産LLM「Sarashina」のAPIを利用できる「Sarashinaサービス」の無償ベータを提供しはじめました。https://www.sbintuitions.co.jp/news/pres]]></description>
+            <author>大賀愛一郎（oga_aiichiro）</author>
+        </item>
+        <item>
+            <title><![CDATA[【第4部】約450ファイルの大規模リファクタリング！ ServiceからWorkManagerへの移行編 | MOTEX TECH BLOG]]></title>
+            <link>https://tech.motex.co.jp/entry/2026/10/15/170004</link>
+            <guid isPermaLink="false">https://tech.motex.co.jp/entry/2026/10/15/170004</guid>
+            <pubDate>Thu, 15 Oct 2026 08:28:14 GMT</pubDate>
+            <description><![CDATA[ServiceからWorkManagerへ。バックグラウンド制限の厳格化に対応するため、宣言的なタスク管理へ移行した過程と、シリーズ全体の効果・今後の展望を紹介します。]]></description>
+        </item>
+        <item>
+            <title><![CDATA[【第3部】約450ファイルの大規模リファクタリング！ Retrofit2の導入によるネットワーク通信層の刷新編 | MOTEX TECH BLOG]]></title>
+            <link>https://tech.motex.co.jp/entry/2026/10/15/170003</link>
+            <guid isPermaLink="false">https://tech.motex.co.jp/entry/2026/10/15/170003</guid>
+            <pubDate>Thu, 15 Oct 2026 08:27:47 GMT</pubDate>
+            <description><![CDATA[HttpURLConnectionからRetrofit2へ。手動管理だったネットワーク通信層を、宣言的なAPI定義・リトライ共通化・Coroutine連携でモダン化した過程を紹介します。]]></description>
+        </item>
+        <item>
+            <title><![CDATA[【第2部】約450ファイルの大規模リファクタリング！ Clean Architecture + MVP への移行とUT改善編 | MOTEX TECH BLOG]]></title>
+            <link>https://tech.motex.co.jp/entry/2026/10/15/170002</link>
+            <guid isPermaLink="false">https://tech.motex.co.jp/entry/2026/10/15/170002</guid>
+            <pubDate>Thu, 15 Oct 2026 08:27:24 GMT</pubDate>
+            <description><![CDATA[約450ファイルの大規模リファクタリング第2部。Clean Architectureによるレイヤー分離と、Fixtureパターンを活用した単体テスト改善の取り組みを詳解します。]]></description>
+        </item>
+        <item>
+            <title><![CDATA[【第1部】約450ファイルの大規模リファクタリング！ JavaからKotlinへの置き換え編 | MOTEX TECH BLOG]]></title>
+            <link>https://tech.motex.co.jp/entry/2026/10/15/170001</link>
+            <guid isPermaLink="false">https://tech.motex.co.jp/entry/2026/10/15/170001</guid>
+            <pubDate>Thu, 15 Oct 2026 08:26:42 GMT</pubDate>
+            <description><![CDATA[LANSCOPEエンドポイントマネージャー クラウド版のAndroidアプリの大規模リファクタリング第1弾。JavaからKotlinへの移行で得た恩恵や技術的改善を詳解。]]></description>
+        </item>
+        <item>
+            <title><![CDATA[【エンジニア1年目向け】Docker入門 ～イメージ・コンテナ・Docker Composeの基本を徹底解説～ | ヘッドウォータースのフィード]]></title>
+            <link>https://zenn.dev/headwaters/articles/eee309093788fd</link>
+            <guid isPermaLink="false">https://zenn.dev/headwaters/articles/eee309093788fd</guid>
+            <pubDate>Thu, 15 Oct 2026 07:36:53 GMT</pubDate>
+            <description><![CDATA[開発現場で、ほぼ必須と言っていいほど利用されているのが Docker です。初めて触れると、Dockerって何？仮想マシンと何が違うの？イメージとコンテナって何？docker-composeって何のためにあるの？と疑問だらけだと思います。この記事では Docker の基本から実際の開発で使うコマンドまで解説します。 DockerとはDockerは、アプリケーションを動かすための環境をまとめてパッケ]]></description>
+            <author>HWS Nishida</author>
+        </item>
+        <item>
+            <title><![CDATA[Claude Codeを並列で回すならOrcaが快適だった | 株式会社ソニックムーブのフィード]]></title>
+            <link>https://zenn.dev/sonicmoov/articles/f8c0847c05cba9</link>
+            <guid isPermaLink="false">https://zenn.dev/sonicmoov/articles/f8c0847c05cba9</guid>
+            <pubDate>Thu, 15 Oct 2026 07:23:04 GMT</pubDate>
+            <description><![CDATA[はじめに株式会社ソニックムーブのエンジニアのnoheです。ここ半年ほどで、実装はほぼAIに任せるようになりました。VS Codeは開いているものの、画面はほぼターミナルで占められ、エディタはプロンプトの下書きにしか使っていませんでした。その中で実装とレビューなどを並行で行なっていると、実装中のブランチが切り替わってしまったり、事故が時々起きる状況でした。そこで1ヶ月ほど前から、エージェントに任せる]]></description>
+            <author>nohe</author>
+        </item>
+        <item>
+            <title><![CDATA[名古屋Ruby会議05に協賛しました！——粋な出囃子と落語で彩られたトーク | SmartHR Tech Blog]]></title>
+            <link>https://tech.smarthr.jp/entry/2026/10/15/155815</link>
+            <guid isPermaLink="false">https://tech.smarthr.jp/entry/2026/10/15/155815</guid>
+            <pubDate>Thu, 15 Oct 2026 06:58:15 GMT</pubDate>
+            <description><![CDATA[SmartHRは、2026年9月19日(土)に愛知県名古屋市の大須演芸場で開催された「名古屋Ruby会議05」に協賛し、8名が参加、1名が運営に携わりました。 この記事では、参加したメンバーのnaitoh、delhi09、osyoyu、natty、そして運営として携わったsoulがイベントの模様をレポートします！ 会場の大須演芸場 目次 目次 名古屋Ruby会議05とは 運営 スポンサーLT 印象]]></description>
+        </item>
+        <item>
+            <title><![CDATA[【XCC】テストCall Homeが通らない場合の確認ポイントまとめ | JBS Tech Blog]]></title>
+            <link>https://blog.jbs.co.jp/entry/2026/10/15/153455</link>
+            <guid isPermaLink="false">https://blog.jbs.co.jp/entry/2026/10/15/153455</guid>
+            <pubDate>Thu, 15 Oct 2026 06:34:55 GMT</pubDate>
+            <description><![CDATA[Lenovo XClarity Controller(以下XCC)には「Call Home(コール・ホーム)」と呼ばれる、ハードウェア障害を早期に検知する機能が標準搭載されています。 この機能を活用することで、障害発生時の迅速な初動対応につながります。 一方で、構築や運用の現場では「接続テストに失敗する」といった事象に遭遇することがあります。特にネットワークが閉域環境で構成されている場合、機能の失]]></description>
+        </item>
+        <item>
+            <title><![CDATA[AIを使えばドキュメント整備はいらない？いやいや、今こそ人間が動くときだ | atama plus techblogのフィード]]></title>
+            <link>https://zenn.dev/atamaplus/articles/2c9538a721c613</link>
+            <guid isPermaLink="false">https://zenn.dev/atamaplus/articles/2c9538a721c613</guid>
+            <pubDate>Thu, 15 Oct 2026 06:00:23 GMT</pubDate>
+            <description><![CDATA[こんにちは、atama plusでエンジニアをしているyuki_nomuraです。最近はAIに社内の情報を探してもらう場面も増えてきたのではないでしょうか。それなら、ドキュメントの整理や見直しもAIに任せて、みんな幸せになりそうです。でも、ドキュメントの内容が今も正しいかどうかは、誰がどうやって確認すればいいでしょう？…そうです、この記事で私が主張したいことは、AIを使うようになっても、ドキュメン]]></description>
+            <author>yuki nomura</author>
+        </item>
+        <item>
+            <title><![CDATA[週刊Cloudflare - 2026/10/11週 | Gemcook Tech Blogのフィード]]></title>
+            <link>https://zenn.dev/gemcook/articles/weekly-cloudflare_2026_1004-1010</link>
+            <guid isPermaLink="false">https://zenn.dev/gemcook/articles/weekly-cloudflare_2026_1004-1010</guid>
+            <pubDate>Thu, 15 Oct 2026 06:00:00 GMT</pubDate>
+            <description><![CDATA[こんにちは、あさひです 🙋‍♂️ 今週の Cloudflare のアップデートをまとめていきます！ この記事の主旨この記事では、前週に Cloudflare のサービスにどんな変更があったかをざっくりと理解してもらい、サービスに興味を持ってもらうことを目的としています。そのため、変更点を網羅することを優先します。 2026/10/04 ~ 2026/10/10 の変更 Wrangler 4.148]]></description>
+            <author>あさひ</author>
+        </item>
+        <item>
+            <title><![CDATA[Data 360 の資材を Data Kit でデプロイする | フレクトのクラウドblog]]></title>
+            <link>https://cloud.flect.co.jp/entry/2026/10/15/150000</link>
+            <guid isPermaLink="false">https://cloud.flect.co.jp/entry/2026/10/15/150000</guid>
+            <pubDate>Thu, 15 Oct 2026 06:00:00 GMT</pubDate>
+            <description><![CDATA[こんにちは。エンジニアの山下です。 今回は Data 360 のデプロイについて書きたいと思います。 Data 360 で構築した資材を別の環境へデプロイする際は Data Kit を使うのが基本的な方法です。しかし、Data Kit によるデプロイはお世辞にも快適とは言えず、何も考えずにデプロイに臨むと様々な障害に直面します。 実際、筆者は Data 360 を使った案件でのデプロイに立ち会った]]></description>
+        </item>
+        <item>
+            <title><![CDATA[ローカルLLM、導入前に「試乗」しませんか？サーバーを買う前にできる検証アプローチを紹介！ | 株式会社モンスターラボ]]></title>
+            <link>https://monstar-lab.com/dx/technology/local-llm-poc/</link>
+            <guid isPermaLink="false">https://monstar-lab.com/dx/?p=16333</guid>
+            <pubDate>Thu, 15 Oct 2026 05:52:37 GMT</pubDate>
+            <description><![CDATA[はじめに この記事では、「ローカルLLMを本格導入する前に、どのように検証するか」をテーマに、私たちが現在取り組んでいる検証方法を交えながら、導入判断までの進め方を紹介します。特に、以下に当てはまる方に読んでいただきたい […]The post ローカルLLM、導入前に「試乗」しませんか？サーバーを買う前にできる検証アプローチを紹介！ first appeared on 株式会社モンスターラボ.]]></description>
+            <author>nishihatakie</author>
+            <category>テクノロジー</category>
+        </item>
+        <item>
+            <title><![CDATA[論文解説：GenRec: An LLM-Backed Recommendation Ranker at Netflix | Stockmark Tech Blog]]></title>
+            <link>https://stockmark-tech.hatenablog.com/entry/2026/10/15/144936</link>
+            <guid isPermaLink="false">https://stockmark-tech.hatenablog.com/entry/2026/10/15/144936</guid>
+            <pubDate>Thu, 15 Oct 2026 05:49:36 GMT</pubDate>
+            <description><![CDATA[はじめに Researcher の田中です。 ストックマークでは、製造業向けの情報収集・活用プラットフォーム「Aconnect」を提供しており、国内外のニュースや論文、特許などの情報を収集し、ユーザーの関心に応じて推薦しています。 また Aconnect を含む情報推薦サービス改善のため、ニュースや論文・特許といったコンテンツを対象とした推薦モデルの研究開発に取り組んでいます。 今回は、こうした推]]></description>
+        </item>
+        <item>
+            <title><![CDATA[影響社数ではなく、顧客の困り具合でインシデントの重さを決める | Link and Motivation Developers' Blog]]></title>
+            <link>https://link-and-motivation.hatenablog.com/entry/2026/10/15/142533</link>
+            <guid isPermaLink="false">https://link-and-motivation.hatenablog.com/entry/2026/10/15/142533</guid>
+            <pubDate>Thu, 15 Oct 2026 05:25:33 GMT</pubDate>
+            <description><![CDATA[こんにちは、組織改善サーベイを提供するBtoB SaaS「Motivation Cloud Engagement」でテックリードをしている中﨑です。持ち回りのインシデントコマンダーの一人として、インシデントにするかどうかを判断する立場にいます。 私たちのチームでは、インシデントの重さを、影響を受けた会社の数（影響社数）では決めていません。決め手にしているのは、顧客の困り具合だけです。困り具合は、何]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Kaigi on Rails 2026に向けて「きみはどのハチ公？ 開発タイプ診断！」社内お披露目会を開催しました！ | SmartHR Tech Blog]]></title>
+            <link>https://tech.smarthr.jp/entry/2026/10/15/142322</link>
+            <guid isPermaLink="false">https://tech.smarthr.jp/entry/2026/10/15/142322</guid>
+            <pubDate>Thu, 15 Oct 2026 05:23:22 GMT</pubDate>
+            <description><![CDATA[こんにちは、2026年4月にSmartHRへ新卒で入社したnose（のせ）です。 SmartHRは、2026年10月16日（金）・17日（土）にベルサール渋谷ガーデンで開催されるKaigi on Rails 2026にブースを出展します！ブースでは、「きみはどのハチ公？ 開発タイプ診断！」を開催します。開発の中で好きなことや、うれしいと感じる場面について答えると、今の自分に近いハチ公タイプが分かる]]></description>
+        </item>
+        <item>
+            <title><![CDATA[GitHub Copilot Computer UseはE2Eテストの代わりになるのか試してみた | 株式会社メンバーズ AIフォーオールカンパニーのフィード]]></title>
+            <link>https://zenn.dev/aiforall/articles/f89e7da91740bc</link>
+            <guid isPermaLink="false">https://zenn.dev/aiforall/articles/f89e7da91740bc</guid>
+            <pubDate>Thu, 15 Oct 2026 05:04:45 GMT</pubDate>
+            <description><![CDATA[はじめにみなさんはE2Eテストを実施していますか？E2Eテストは実際のユーザー操作を想定した形でアプリケーションを検証できる一方で、テストコードの作成コストが高いUI変更によるメンテナンスコストが発生するといった課題があります。そんな中、2026年10月1日にGitHub Copilot CLIおよびGitHub Copilotアプリにて、デスクトップアプリケーションが操作可能な「Computer]]></description>
+            <author>鱈</author>
+        </item>
+        <item>
+            <title><![CDATA[Bedrock Managed Agentsを実測 — モデルはsession roleで制限でき、操作はdata eventに残る | NTT DATA TECHのフィード]]></title>
+            <link>https://zenn.dev/nttdata_tech/articles/b0c09dcf913aa0</link>
+            <guid isPermaLink="false">https://zenn.dev/nttdata_tech/articles/b0c09dcf913aa0</guid>
+            <pubDate>Thu, 15 Oct 2026 05:01:15 GMT</pubDate>
+            <description><![CDATA[1. はじめにマネージドなエージェント実行基盤を業務に入れる前には、「どのモデルを使わせるかを IAM で縛れるか」「誰が何をしたかを後から追えるか」を確認しておく必要があります。エージェントはモデル呼び出しとコマンド実行を自律的に繰り返すため、ここが曖昧なままだと、利用範囲の制御も監査も運用設計に落とせません。AWS（Amazon Web Services）は 2026/09/29 に、Amaz]]></description>
+            <author>Yutaka Kashiwabara</author>
+        </item>
+        <item>
+            <title><![CDATA[Pegasus 1.5の動画セグメンテーションをBedrockで実測 — 合成動画で画面・話者の境界誤差を確認 | NTT DATA TECHのフィード]]></title>
+            <link>https://zenn.dev/nttdata_tech/articles/945918644c6746</link>
+            <guid isPermaLink="false">https://zenn.dev/nttdata_tech/articles/945918644c6746</guid>
+            <pubDate>Thu, 15 Oct 2026 05:00:58 GMT</pubDate>
+            <description><![CDATA[1. はじめに動画を検索や分析に使うには、「どこで何が起きたか」を開始・終了時刻つきのデータにする必要があります。従来の動画言語モデルでも、プロンプトでタイムスタンプを求めればそれらしい答えは返ります。ただ、その時刻がどれだけ正確なのかは、正解が分かっている動画で測らないと判断できません。TwelveLabs の Pegasus 1.5 は、Amazon Bedrock のモデルカード上の提供開始]]></description>
+            <author>Yutaka Kashiwabara</author>
+        </item>
+        <item>
+            <title><![CDATA[Kaigi on Rails 2026にSilver Sponsorとして協賛します！ | Sansan Tech Blog]]></title>
+            <link>https://buildersbox.corp-sansan.com/entry/2026/10/15/140000</link>
+            <guid isPermaLink="false">https://buildersbox.corp-sansan.com/entry/2026/10/15/140000</guid>
+            <pubDate>Thu, 15 Oct 2026 05:00:00 GMT</pubDate>
+            <description><![CDATA[こんにちは。名刺アプリ「Eight」でエンジニアをしている鳥山（@pvcresin）です。 Sansan株式会社は、10月16日（金）・17日（土）に開催される「Kaigi on Rails 2026」にSilver Sponsorとして協賛します！ この記事では、Kaigi on Rails 2026への協賛の背景などをご紹介します。]]></description>
+        </item>
+        <item>
+            <title><![CDATA[【Skill（スキル）って何？】Google公式の実装から学ぶスキルの書き方と仕組みを徹底解剖！ | ソフトバンク テックブログ（公式）のフィード]]></title>
+            <link>https://zenn.dev/softbank/articles/f196944d5190b3</link>
+            <guid isPermaLink="false">https://zenn.dev/softbank/articles/f196944d5190b3</guid>
+            <pubDate>Thu, 15 Oct 2026 04:29:30 GMT</pubDate>
+            <description><![CDATA[はじめに最近、AIエージェントやコーディングアシスタントの界隈で「Skill（スキル）」という言葉をよく見かけるようになりました。「サブエージェント（Subagents）と何が違うの？」「どうやって書けばAIがうまく使ってくれるの？」そんな方に向けて、この記事では Google 公式の Agent-CLI で実際に使われている Skill のコードを見ながら、その仕組みと書き方のテクニックをわかり]]></description>
+            <author>堺田 寛一朗</author>
+        </item>
+        <item>
+            <title><![CDATA[【git-qa】テスト仕様書を AI に流させて、合否は人が 1 打鍵で置く（human-in-the-loop QA） | Dokokadeさんのフィード]]></title>
+            <link>https://zenn.dev/dokokade/articles/8d7756c7056a24</link>
+            <guid isPermaLink="false">https://zenn.dev/dokokade/articles/8d7756c7056a24</guid>
+            <pubDate>Thu, 15 Oct 2026 04:29:11 GMT</pubDate>
+            <description><![CDATA[AI に「全部通りました」と言わせたくないAI でテストを自動化すると、最後に AI が「全部通りました」と言います。でも、出したものが壊れていたとき責任を持つのは人です。「AI が通したので」は通りません。git-qa は、その前提のまま作った 人が判定する QA ランナー（human-in-the-loop QA・オープンソース）です。AI がテスト仕様書（検証シート）を流す —— 端末・ブラ]]></description>
+            <author>Dokokade</author>
+        </item>
+        <item>
+            <title><![CDATA[home-managerでdotfilesを管理する | 株式会社ソニックムーブのフィード]]></title>
+            <link>https://zenn.dev/sonicmoov/articles/c7b08fd03af0cd</link>
+            <guid isPermaLink="false">https://zenn.dev/sonicmoov/articles/c7b08fd03af0cd</guid>
+            <pubDate>Thu, 15 Oct 2026 04:11:23 GMT</pubDate>
+            <description><![CDATA[最近NixOSを触っていたのですが、設定記述をするうち、既存のdotfiles管理との衝突にあいました。既存ではMakefile + symlinkによる簡易な管理を行っていました。実際のところ、この管理をそのまま適用することも可能ではあるのですが、 プラットフォーム別の分岐などの課題があり、どうせならnixベースの管理を試してみようと思い立ちました。Nixのエコシステムにはhome-manage]]></description>
+            <author>smv_rtakahashi</author>
+        </item>
+        <item>
+            <title><![CDATA[エージェント開発、Antigravity、本番運用の設計まで。開発者のための Agentic AI Summit '26 Fall | Google Developers Japan]]></title>
+            <link>https://developers-jp.googleblog.com/2026/10/antigravity-agentic-ai-summit-26-fall.html</link>
+            <guid isPermaLink="false">https://developers-jp.googleblog.com/2026/10/antigravity-agentic-ai-summit-26-fall.html</guid>
+            <pubDate>Thu, 15 Oct 2026 04:00:00 GMT</pubDate>
+            <description><![CDATA[こんにちは、Google Cloud Japan です。AI エージェントは、動くものを作るところまでは驚くほど速く進みます。難しいのはその先です。同じ入力でも同じ答えが返るとは限らない相手をどうテストし、どこでリリースを判断し、増えていくエージェント同士をどうつなぐか。2026 年 10 月 29 日（木）と 30 日（金）に開催する Agentic AI Summit '26 Fall では、]]></description>
+        </item>
+        <item>
+            <title><![CDATA[速くて安いAI「Jev」でQAを自動化してみた | every Tech Blog]]></title>
+            <link>https://tech.every.tv/entry/2026/10/15/125805</link>
+            <guid isPermaLink="false">https://tech.every.tv/entry/2026/10/15/125805</guid>
+            <pubDate>Thu, 15 Oct 2026 03:58:05 GMT</pubDate>
+            <description><![CDATA[はじめに こんにちは！株式会社エブリーで1ヶ月間、iOS エンジニアとしてインターンをしていた木村風葉です。ヘルシカの iOS チームで、食事記録まわりの改善や無料会員向けの機能追加など、いくつかの機能開発に取り組みました。 この記事では、インターンの後半に取り組んだ「Jev」という新しいAIを使った検証ツールづくりについて書きます。Jevは、文章を生成する代わりに「選択肢のどれを選ぶか」を確率付]]></description>
+        </item>
+        <item>
+            <title><![CDATA[「1プロセス1並列」というJavaライブラリの制約をサブプロセス化で突破し、タイムスタンプ処理を20倍高速化した話 | ENGINEER TECH BLOG]]></title>
+            <link>https://note.com/watahiro395/n/n1553d1c0f3a8</link>
+            <guid isPermaLink="false">https://note.com/watahiro395/n/n1553d1c0f3a8</guid>
+            <pubDate>Thu, 15 Oct 2026 03:31:23 GMT</pubDate>
+            <description><![CDATA[今回は、2023年にSVFAC（SVF Archiver Cloud）に対して実施した改善内容を記載しようと思います。当時のSVFACでは、利用していたタイムスタンプライブラリの制約により、1プロセスあたり同時実行数が1に制限されていました。続きをみる]]></description>
+        </item>
+        <item>
+            <title><![CDATA[タイトル・キャプション・コメントの自動翻訳基盤の技術選定と設計 | pixiv inside]]></title>
+            <link>https://inside.pixiv.blog/2026/10/15/123000</link>
+            <guid isPermaLink="false">https://inside.pixiv.blog/2026/10/15/123000</guid>
+            <pubDate>Thu, 15 Oct 2026 03:30:00 GMT</pubDate>
+            <description><![CDATA[2026年10月29日より、デスクトップ版・モバイル版pixivの作品詳細ページにおいて、作品のタイトル・キャプション・コメントの自動翻訳機能を提供します（イラスト、マンガ、小説などの作品そのものは対象外となります）。 www.pixiv.net この記事では、自動翻訳基盤の仕組みと、実現にあたり直面した技術的課題にどう対応したかについて紹介します。 こんにちは、ピクシブでエンジニアをしているyu]]></description>
+        </item>
+        <item>
+            <title><![CDATA[名古屋 Ruby 会議05 に登壇しました | Timee Product Team Blog]]></title>
+            <link>https://tech.timee.co.jp/entry/2026/10/15/121354</link>
+            <guid isPermaLink="false">https://tech.timee.co.jp/entry/2026/10/15/121354</guid>
+            <pubDate>Thu, 15 Oct 2026 03:13:54 GMT</pubDate>
+            <description><![CDATA[こんにちは。株式会社タイミーのバックエンドエンジニアの神山(@dak2)です。 2026/9/19 に名古屋の大須演芸場で開催された名古屋 Ruby 会議05 に登壇してきました。 タイミーでは、世界中で開催される技術系カンファレンスに無制限で参加できる「Kaigi Pass」という制度があり、そちらを活用して現地でカンファレンスに参加してきました。 今回は『特殊変数大全』というテーマで登壇しまし]]></description>
+        </item>
+        <item>
+            <title><![CDATA[AWS BuilderCards の日本語版が発売！英語版と見比べてみた！ | サーバーワークスエンジニアブログ]]></title>
+            <link>https://blog.serverworks.co.jp/aws-buildercards-japanese-edition</link>
+            <guid isPermaLink="false">https://blog.serverworks.co.jp/aws-buildercards-japanese-edition</guid>
+            <pubDate>Thu, 15 Oct 2026 03:00:00 GMT</pubDate>
+            <description><![CDATA[こんにちは！エデュケーショナルサービス課、濱岡です！ ついに、AWS BuilderCards の日本語版が発売されました！！！！ 以下のページで販売されています。 www.amazon.co.jp 今回は日本語版（第2版）が発売されたので、英語版（第2版）と比較をしてみます！！！！ 第1版と第2版の違いは以下で紹介しています。 blog.serverworks.co.jp 2026年10月14日]]></description>
+        </item>
+        <item>
+            <title><![CDATA[永和道場のふりかえりを行いました | ESM アジャイル事業部 開発者ブログ]]></title>
+            <link>https://blog.agile.esm.co.jp/entry/eiwa-dojo-junk0612</link>
+            <guid isPermaLink="false">https://blog.agile.esm.co.jp/entry/eiwa-dojo-junk0612</guid>
+            <pubDate>Thu, 15 Oct 2026 03:00:00 GMT</pubDate>
+            <description><![CDATA[こんにちは。永和道場師範の @junk0612 です。 永和道場を始めてから約3.5か月が経過しました。先日、門下生3人を含めてふりかえりを行ったところ、始める前には気づかなかったようなおもしろい発見がいくつかあったので、ご紹介します。 毎日続けると成長のスピードも速い もともと、永和道場は毎日1時間を使って開催していた社内勉強会でした。社内勉強会といえば、普通は週1回や月1回で開催されることが多]]></description>
+        </item>
+        <item>
+            <title><![CDATA[MCPでもアクセス制御したい！ | 株式会社ログラス テックブログのフィード]]></title>
+            <link>https://zenn.dev/loglass/articles/f2875f39492a1c</link>
+            <guid isPermaLink="false">https://zenn.dev/loglass/articles/f2875f39492a1c</guid>
+            <pubDate>Thu, 15 Oct 2026 02:50:32 GMT</pubDate>
+            <description><![CDATA[!この記事は毎週必ず記事がでるテックブログ Loglass Tech Blog Sprint の165週目の記事です！4年間連続達成まで残り47週となりました！ はじめにエコシステムの成長に伴い、AIエージェントが外部SaaSや社内システムを操作する機会が増加し、そのインターフェースとしてMCP（Model Context Protocol）の採用が進んでいます。ログラスにおいても、次世代のプロダ]]></description>
+            <author>Hiroto Sasagawa</author>
+        </item>
+        <item>
+            <title><![CDATA[Akinatorで始めるAgentic RL ー タスク設計と初期検証  ー | 松尾研究所テックブログのフィード]]></title>
+            <link>https://zenn.dev/mkj/articles/8e1da67da67f98</link>
+            <guid isPermaLink="false">https://zenn.dev/mkj/articles/8e1da67da67f98</guid>
+            <pubDate>Thu, 15 Oct 2026 02:50:05 GMT</pubDate>
+            <description><![CDATA[1. はじめに松尾研究所の具です。昨今、LLMが外部環境に作用し自律的にタスクをこなすAIエージェントに関する研究が注目されています。中でも、多様なツールを用いてAgentに適切な行動を取らせるために、ツールの利用方法を推論時のコンテキストとして渡すのではなく、事後学習によって獲得させる枠組みであるAgentic RLが注目されています。Agentic RLとは、「LLMを学習可能な方策として扱い]]></description>
+            <author>クリリン</author>
+        </item>
+        <item>
+            <title><![CDATA[MySQL の Functional Index で状態に応じた一意制約をかける | inSmartBank]]></title>
+            <link>https://blog.smartbank.co.jp/entry/mysql-functional-index</link>
+            <guid isPermaLink="false">https://blog.smartbank.co.jp/entry/mysql-functional-index</guid>
+            <pubDate>Thu, 15 Oct 2026 02:45:00 GMT</pubDate>
+            <description><![CDATA[こんにちは、スマートバンクでプロダクトエンジニアをしている yuhi（@yuhi_junior）です。 皆さんはレコードの状態を表すカラムの値に応じて一意制約をテーブルにかけたいと思ったことはありませんか？意図しない状態のレコードが混入しないことをデータベース層で担保できたら嬉しいですよね。 今回はあるデータモデルを題材として Functional Index による一意制約を実現する方法を説明し]]></description>
+        </item>
+        <item>
+            <title><![CDATA[【PV連載 Vol.2】virshで始める仮想化入門　～仮想マシンの作成・接続・削除を体験する～ | NTT DATA TECHのフィード]]></title>
+            <link>https://zenn.dev/nttdata_tech/articles/bd9acf7aaf9e03</link>
+            <guid isPermaLink="false">https://zenn.dev/nttdata_tech/articles/bd9acf7aaf9e03</guid>
+            <pubDate>Thu, 15 Oct 2026 02:44:55 GMT</pubDate>
+            <description><![CDATA[はじめにNTT DATAの加藤です。私たちは、仮想化基盤を管理・運用するサービス「Prossione Virtualization（以下、PV）」を開発しています。この記事は「Prossione Virtualizationを理解する・使ってみる」シリーズ Vol.2 です。前回の「【PV連載 Vol.1】仮想化とは？ハイパーバイザーとVM・コンテナの違い」では、仮想化の仕組みと、それを継続して運]]></description>
+            <author>gyu-don | Takumi Kato</author>
+        </item>
+        <item>
+            <title><![CDATA[おーい磯野、Closure Tableと権限の非正規化やめようぜ（自分で入れた設計を全部剥がした話） | DRESS CODE TECH BLOGのフィード]]></title>
+            <link>https://zenn.dev/dress_code/articles/9fb2728db71a01</link>
+            <guid isPermaLink="false">https://zenn.dev/dress_code/articles/9fb2728db71a01</guid>
+            <pubDate>Thu, 15 Oct 2026 02:30:05 GMT</pubDate>
+            <description><![CDATA[おーい磯野、Closure Table入れようぜ！...くらいの軽いノリで Closure Table（閉包テーブル）を導入した過去の自分を正座させて、AI からの正論パンチを浴びせたい gamonges です。Google Drive や Box にあるフォルダ、ファイル、付与された権限を自社 DB に同期させる仕組みを作っていたのですが、「将来きっと必要になるから！」と意気揚々と Closur]]></description>
+            <author>gamonges</author>
+        </item>
+        <item>
+            <title><![CDATA[ServiceNowダッシュボード開発を40時間→4時間に — Performance AnalyticsとAIエージェント開発 | Visional Engineering Blog]]></title>
+            <link>https://engineering.visional.inc/blog/798/wfg-sn-dashboard/</link>
+            <guid isPermaLink="false">https://engineering.visional.inc/blog/798/wfg-sn-dashboard/</guid>
+            <pubDate>Thu, 15 Oct 2026 02:30:00 GMT</pubDate>
+            <description><![CDATA[はじめに執筆者紹介こんにちは。株式会社ビズリーチ 経営基盤開発部のワークフローグループ（以下、WFG）に所属する岩山です。2025年10月にキャリア入社しました。ServiceNow歴は3年半ほどになり、ServiceNow資格としては、CSA/CAD/CIS-DF/CIS-ITSM/CIS-VRを取得しています。現在は、ワークフローやデータの基盤となるServiceNowの企画・開発を担当してい]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Repro における AWS アカウント分離の取り組み Part6 | Repro Tech Blog]]></title>
+            <link>https://tech.repro.io/entry/2026/10/15/112754</link>
+            <guid isPermaLink="false">https://tech.repro.io/entry/2026/10/15/112754</guid>
+            <pubDate>Thu, 15 Oct 2026 02:27:54 GMT</pubDate>
+            <description><![CDATA[Development Division/Platform Team/Sys-Infra Unit です。 AWS アカウント分離シリーズの Part6 になります。 今回は、staging 環境のアプリケーションの分離が完了し、残りが RDS、Kafka、Cassandra、EMR になったことを報告します。 これまでのあらすじ Repro における AWS アカウント分離の取り組み Repro]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Security Hub CSPM に金融業界向けのセキュリティ基準「CRI Profile v2.2」が追加されました | 株式会社サイバーセキュリティクラウド　テックブログのフィード]]></title>
+            <link>https://zenn.dev/cscloud_blog/articles/security-hub-cspm-cri-profile-v2_2</link>
+            <guid isPermaLink="false">https://zenn.dev/cscloud_blog/articles/security-hub-cspm-cri-profile-v2_2</guid>
+            <pubDate>Thu, 15 Oct 2026 02:11:54 GMT</pubDate>
+            <description><![CDATA[こんにちは、CSC の CloudFastener というプロダクトで TAM のポジションで働いている平木です！皆さんは Security Hub CSPM のセキュリティ基準を何種類有効化していますか？AWS 基礎セキュリティのベストプラクティス（FSBP）や CIS AWS Foundations Benchmark を有効化している方は多いと思いますが、2026 年 10 月 14 日に ]]></description>
+            <author>平木 佳介</author>
+        </item>
+        <item>
+            <title><![CDATA[人が考えるべきことに集中するためのコンテキストの作り方_ClaudeCodeNight #2登壇レポート | アサインのフィード]]></title>
+            <link>https://zenn.dev/assign/articles/61960e3215ccfa</link>
+            <guid isPermaLink="false">https://zenn.dev/assign/articles/61960e3215ccfa</guid>
+            <pubDate>Thu, 15 Oct 2026 02:11:30 GMT</pubDate>
+            <description><![CDATA[はじめにこんにちは。株式会社アサインでアプリ開発責任者をしている白井です。少し日が経ってしまいましたが、2026年9月11日の金曜日にClaude Code Night #2を開催しました。私が発表したのは「人が考えるべきことに集中するためのコンテキストの作り方」という題です。発表で一番伝えたかったのは、人が考えることに集中できるかどうかがAIに渡すコンテキストで決まるということです。AIがどれだ]]></description>
+            <author>Shirai</author>
+        </item>
+        <item>
+            <title><![CDATA[人による工数見積もりをやめて、AIに任せることにした | TANP Blog]]></title>
+            <link>https://www.tanp-blog.com/entry/2026/10/15/110018</link>
+            <guid isPermaLink="false">https://www.tanp-blog.com/entry/2026/10/15/110018</guid>
+            <pubDate>Thu, 15 Oct 2026 02:00:18 GMT</pubDate>
+            <description><![CDATA[こんにちは、エンジニアの安達です。 これまでのタンプでは、新しい施策を検討するとき、事業部がやりたいことを整理し、それをもとにエンジニアがヒアリングを行い、開発チーム全員で工数を見積もっていました。 現在はこのプロセスを大きく変更し、事業部が要求定義を書き、AIがコードベースを確認しながら内容をレビューし、工数まで見積もる。その結果をもとに、事業部でロードマップの優先順位まで判断します。 つまり、]]></description>
+        </item>
+        <item>
+            <title><![CDATA[セキュリティ業務向けAIエージェント基盤「SAGE」の開発記 第1弾：判断は人間に委ねる設計 | LINEヤフー Tech Blog (LY Corporation Tech Blog]]></title>
+            <link>https://techblog.lycorp.co.jp/ja/20261015d</link>
+            <guid isPermaLink="false">https://techblog.lycorp.co.jp/ja/20261015d</guid>
+            <pubDate>Thu, 15 Oct 2026 02:00:00 GMT</pubDate>
+            <description><![CDATA[こんにちは。社内のセキュリティ業務にAIを取り入れる業務を担当している、Security Development Division（LINE Plus Security R&amp;D）チームです。この記事は...]]></description>
+        </item>
+        <item>
+            <title><![CDATA[大規模テキストデータを活用したサービス特化型言語モデルの社内共有プロジェクト：Moegi | LINEヤフー Tech Blog (LY Corporation Tech Blog]]></title>
+            <link>https://techblog.lycorp.co.jp/ja/20261015a</link>
+            <guid isPermaLink="false">https://techblog.lycorp.co.jp/ja/20261015a</guid>
+            <pubDate>Thu, 15 Oct 2026 02:00:00 GMT</pubDate>
+            <description><![CDATA[こんにちは。私たちはLINEヤフー株式会社で言語処理モデルを開発しているプロジェクトチームです。LINEヤフーでは、さまざまなサービス（例：Yahoo!ショッピング、Yahoo!検索、Yahoo!知恵...]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Go 1.26.6へのバージョンアップでnet/httpのバグを踏んで稀に502エラーを発生させた原因をちゃんと理解する | Sansan Tech Blog]]></title>
+            <link>https://buildersbox.corp-sansan.com/entry/2026/10/15/101500</link>
+            <guid isPermaLink="false">https://buildersbox.corp-sansan.com/entry/2026/10/15/101500</guid>
+            <pubDate>Thu, 15 Oct 2026 01:15:00 GMT</pubDate>
+            <description><![CDATA[技術本部Platform Engineering Unit Identity Platformグループの都筑です。 弊社が提供する経理AXサービス「Bill One」や契約AXサービス「Contract One」といったプロダクトが利用する共通認証基盤「Auth One」の開発と運用に携わっています。 Auth OneではDependabotやRenovateを利用して依存関係を自動アップデートす]]></description>
+        </item>
+        <item>
+            <title><![CDATA[AIにPC-98のコードを書かせ、動いたことをAI自身に確かめさせる | CloudNative BLOGs]]></title>
+            <link>https://blog.cloudnative.co.jp/articles/ai-pc98-development-with-workbenchnp2/</link>
+            <guid isPermaLink="false">https://blog.cloudnative.co.jp/articles/ai-pc98-development-with-workbenchnp2/</guid>
+            <pubDate>Thu, 15 Oct 2026 01:06:00 GMT</pubDate>
+            <description><![CDATA[生成AIは16ビットx86アセンブラを書ける。解けていないのは、生成したコードが動いたかどうかをAI自身が確かめる部分だ。ブラウザ完結のPC-98開発環境WorkbenchNP2と、エミュレータWebNP2のMCPサーバーを使い、テキスト画面の読み出し・画面変化の待機・状態の保存と巻き戻し・行単位デバッグまでを試した記録。エージェントに任せられる範囲と、人の目が要る境界を整理する。]]></description>
+            <author>Taikai Hirose</author>
+            <category>コラム</category>
+        </item>
+        <item>
+            <title><![CDATA[アンドパッドは Kaigi on Rails 2026 に Drinks スポンサーとして「Rails Fresh Juice」を提供し、 Rails Talk ができるブースを出展します | ANDPAD Tech Blog]]></title>
+            <link>https://tech.andpad.co.jp/entry/2026/10/15/100000</link>
+            <guid isPermaLink="false">https://tech.andpad.co.jp/entry/2026/10/15/100000</guid>
+            <pubDate>Thu, 15 Oct 2026 01:00:00 GMT</pubDate>
+            <description><![CDATA[こんにちは、 id:sezemi です。 Rails World 2026 の Keynote へのアンサーは、私は未だに鉛筆を離すことができない人間です。 さて、いよいよ明日から Kaigi on Rails 2026 が開催されます！ 昨晩の Omarchy Tokyo Night でアンドパッドがドリンクスポンサーをした役得で DHH san の勇姿を見られてホクホクしておりました。 めちゃ]]></description>
+        </item>
+        <item>
+            <title><![CDATA[【Zscaler】ユーザーにZCCをオフにさせない！悩める情シスのためのお助け機能3選 | APC 技術ブログ]]></title>
+            <link>https://techblog.ap-com.co.jp/entry/2026/10/15/095911</link>
+            <guid isPermaLink="false">https://techblog.ap-com.co.jp/entry/2026/10/15/095911</guid>
+            <pubDate>Thu, 15 Oct 2026 00:59:11 GMT</pubDate>
+            <description><![CDATA[目次 はじめに ① 制限力：低 オフにしても自動でオンに戻す ② 制限力：中 オフにする際にパスワードを求める ③ 制限力：高 ログインするまでインターネットアクセスを制限する 3つの機能の使い分け おわりに 参考文献 はじめに こんにちは！iTOC事業部 0-WAN 阿部です。 「通信が遅いから」「サイトにアクセスできないから」と、ユーザーがZscaler Client Connector（以下]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Azure API Managementに登録したAPIをAzure API Centerで管理する手順 | ヘッドウォータースのフィード]]></title>
+            <link>https://zenn.dev/headwaters/articles/241cde2fb783f3</link>
+            <guid isPermaLink="false">https://zenn.dev/headwaters/articles/241cde2fb783f3</guid>
+            <pubDate>Thu, 15 Oct 2026 00:55:56 GMT</pubDate>
+            <description><![CDATA[執筆日2026/10/15 やることAzure API Managementに登録しているAPIを、Azure API Centerでカタログ管理したいと思っています。そこで、どのようにAPI Centerへ登録できるかを調査してみます。 前提API ManagementにAPIを登録していることAzure API Centerをデプロイしていること※今回は、SKU:Freeで実施 手順 環境を作]]></description>
+            <author>takekawa tomoki</author>
+        </item>
+        <item>
+            <title><![CDATA[Microsoft Purview 保持ラベルの概要と適用方法 | JBS Tech Blog]]></title>
+            <link>https://blog.jbs.co.jp/entry/2026/10/15/095529</link>
+            <guid isPermaLink="false">https://blog.jbs.co.jp/entry/2026/10/15/095529</guid>
+            <pubDate>Thu, 15 Oct 2026 00:55:29 GMT</pubDate>
+            <description><![CDATA[業界の規制やセキュリティインシデント発生時のリスク軽減のため、組織では以下のようなコンテンツ管理が求められる場合があります。 契約書を7年間保持させる 特定のドキュメントは５年後に削除する Microsoft Purviewの保持設定を利用することで、これらの要件の実現が可能です。 保持ラベルの適用方法には以下があります。 手動適用 自動適用 本記事では、保持ラベルの概要と上記の適用方法についてご]]></description>
+        </item>
+        <item>
+            <title><![CDATA[リーナーは Kaigi on Rails 2026 で Ruby Sponsor として協賛します | リーナー開発者ブログ]]></title>
+            <link>https://developer.leaner.co.jp/entry/2026/10/15/094644</link>
+            <guid isPermaLink="false">https://developer.leaner.co.jp/entry/2026/10/15/094644</guid>
+            <pubDate>Thu, 15 Oct 2026 00:46:44 GMT</pubDate>
+            <description><![CDATA[こんにちは。id:attsumi です。 いよいよ明日開幕する Kaigi on Rails 2026 （10/16・17開催）に、リーナーは Ruby Sponsor として協賛します。 kaigionrails.org エンジニア・デザイナー 16 名と、CEO・取締役・DevRel が参加予定です リーナーでは全国フルリモート体制でプロダクト開発を行っていますが、今回はエンジニア・デザイナー]]></description>
+        </item>
+        <item>
+            <title><![CDATA[国家サイバー統括室の注意喚起に学ぶ！不正アクセスによる情報漏えいを防ぐ多層防御とサプライチェーン統制実践ガイド | TechHarmony]]></title>
+            <link>https://blog.usize-tech.com/zeronetworks-multi-layer-cyber-defense/</link>
+            <guid isPermaLink="false">https://blog.usize-tech.com/?p=70367</guid>
+            <pubDate>Thu, 15 Oct 2026 00:00:24 GMT</pubDate>
+            <description><![CDATA[10月に入ってタイムズカーの660万件の情報漏えいに始まり、JR東日本（えきねっと）、日経新聞社（日経BP）、大和証券、スズキ、ローソン、ブックオフ、ビックエコー、スカイネット、シチズン、焼肉きんぐ、SanSan、New […]]]></description>
+            <author>Katsumi Yamanaka</author>
+            <category>Zero Networks</category>
+            <category>クラウド</category>
+            <category>ソリューション</category>
+            <category>ネットワーク</category>
+            <category>ゼロトラスト</category>
+            <category>マイクロセグメンテーション</category>
+        </item>
+        <item>
+            <title><![CDATA[Applied Net 2026 に参加してきました！海外の保険テックイベントで感じたこと | hokan Tech Blogのフィード]]></title>
+            <link>https://zenn.dev/hokan_blog/articles/20261009-applied-net-2026</link>
+            <guid isPermaLink="false">https://zenn.dev/hokan_blog/articles/20261009-applied-net-2026</guid>
+            <pubDate>Thu, 15 Oct 2026 00:00:08 GMT</pubDate>
+            <description><![CDATA[こんにちは。hokan でソフトウェアエンジニアをしている菊池です。2026 年 9 月、アメリカのワシントン D.C. 近郊で開催された「Applied Net 2026」に参加してきました。普段は日本で保険代理店向けのプロダクト開発に携わっていますが、海外の保険業界に関するカンファレンスに参加するのは今回が初めてでした。この記事では、イベント全体の雰囲気や現地での体験を中心に、ソフトウェアエン]]></description>
+            <author>Kikuchi</author>
+        </item>
+        <item>
+            <title><![CDATA[us-east-1障害時の原因と復旧対応について考えてみた(後編) | NRIネットコムBlog]]></title>
+            <link>https://tech.nri-net.com/entry/causes_recovery_for_us_east_1_outage_2</link>
+            <guid isPermaLink="false">https://tech.nri-net.com/entry/causes_recovery_for_us_east_1_outage_2</guid>
+            <pubDate>Thu, 15 Oct 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[はじめに まずはbreak-glassユーザーを作る 使われたら気づけるようにする 通知が届くか確認する CP障害を想定して、EC2を復元する 下準備：わざと壊れた状態を作る 復元：既存リソースだけで立て直す 検証の結果 おわりに 出典 こんにちは。山田翔也です。 最近、高額ヴィンテージデニムを購入するかどうかで悩んでいます。財布との熱い議論は続いていますが、その話はひとまず置いておいて、本題に入]]></description>
+        </item>
+        <item>
+            <title><![CDATA[初めての国際標準化会合へ！新入社員が飛び込んだ3GPP CT1 | ENGINEERING BLOG ドコモ開発者ブログ]]></title>
+            <link>https://nttdocomo-developers.jp/entry/2026/10/15/090000</link>
+            <guid isPermaLink="false">https://nttdocomo-developers.jp/entry/2026/10/15/090000</guid>
+            <pubDate>Thu, 15 Oct 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[はじめに みなさんこんにちは！ドコモ6Gテック部の新入社員、西村麻希（にしむらまき）です。 このたび、3GPP CT1#162会合に参加する機会をいただき、初めて国際標準化会合に現地参加しました。 入社後にモバイルネットワークや3GPPを学び始めた私にとって、国際標準化会合への参加は、とても大きな挑戦でした。 本ブログでは、 CT1会合はどのような場なのか 実際に参加して感じた国際会合の雰囲気 参]]></description>
+        </item>
+        <item>
+            <title><![CDATA[【11/5（木）ウェビナー】年末年始や夜間休日のアクセス急増に誰が対応しますか？ 〜対応遅れを事業リスクにしない負荷対策と24時間365日の有人監視〜 | 株式会社ハートビーツ（HEARTBEATS Corporation）｜AWS・クラウド・サーバーなどのインフラ運用を24時間365日サポート]]></title>
+            <link>https://heartbeats.jp/info/event-webinar/event-20261015/</link>
+            <guid isPermaLink="false">https://stg.heartbeats.jp/?p=11995</guid>
+            <pubDate>Thu, 15 Oct 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[ウェビナーのお知らせです。11月5日（木）11:00より、「年末年始や夜間休日のアクセス急増に誰が対応しますか？ 〜対応遅れを事業リスクにしない負荷対策と24時間365日の有人監視〜」と題したウェビナーを開催いたします。投稿 【11/5（木）ウェビナー】年末年始や夜間休日のアクセス急増に誰が対応しますか？ 〜対応遅れを事業リスクにしない負荷対策と24時間365日の有人監視〜 は 株式会社ハートビー]]></description>
+            <author>aioiasuka</author>
+            <category>イベント・ウェビナー</category>
+        </item>
+        <item>
+            <title><![CDATA[「AWS Certified AI Business Strategist (AIB-C01)」を受験してきた！新設ビジネス認定の概要と合格体験記 | 豆蔵デベロッパーサイト]]></title>
+            <link>https://developer.mamezou-tech.com/blogs/2026/10/15/aws_certified_ai_business_strategist/</link>
+            <guid isPermaLink="false">https://developer.mamezou-tech.com/blogs/2026/10/15/aws_certified_ai_business_strategist/</guid>
+            <pubDate>Thu, 15 Oct 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[はじめに#これは、興味のままに新試験を受験してきた記録です。先日、AWS認定に新設された注目のベータ試験「AWS Certified AI Business Strategist (AIB-C01、ベータ試験コード: AB1-C01)」を受験してきました。本記事では、新設された試験の概要や学習準備、受験当日のリアルな所感、そして合否結果についてまとめます...]]></description>
+        </item>
+        <item>
+            <title><![CDATA[What's New in Sigma - 2026年10月09日のSigma Computing関連リリース情報まとめ | truestarテックブログのフィード]]></title>
+            <link>https://zenn.dev/truestar/articles/911c11310e9a9d</link>
+            <guid isPermaLink="false">https://zenn.dev/truestar/articles/911c11310e9a9d</guid>
+            <pubDate>Wed, 14 Oct 2026 23:46:44 GMT</pubDate>
+            <description><![CDATA[Sigma(Sigma Computing)の最新リリースノート情報を集約・要約して紹介しているコミュニティスレッド『Release Notes』。米国時間毎週金曜日中(日本時間土曜日早朝)に定期的に公開されているこちらのスレッドの内容について、個人的情報観測も兼ねて公開されたタイミングで目を通すようにしています。当エントリではこのコミュニティスレッドにおける2026年10月09日付けの投稿につい]]></description>
+            <author>しんや</author>
+        </item>
+        <item>
+            <title><![CDATA[社内勉強会で900人以上が参加！Claude Codeのコスト最適化を支える5つの習慣 | CyberAgent Developers Blog | サイバーエージェント デベロッパーズブログ]]></title>
+            <link>https://developers.cyberagent.co.jp/blog/archives/66509/</link>
+            <guid isPermaLink="false">https://developers.cyberagent.co.jp/blog/?p=66509</guid>
+            <pubDate>Wed, 14 Oct 2026 23:00:54 GMT</pubDate>
+            <description><![CDATA[Anthropicの社員を講師に招いた社内勉強会で得た実践のヒント こんにちは、グループIT推進本部 ...]]></description>
+            <author>Ken Takao</author>
+            <category>エンジニア</category>
+            <category>#ClaudeCode</category>
+            <category>#コスト最適化</category>
+            <category>#コンテキスト管理</category>
+            <category>#サブエージェント</category>
+            <category>#セッション管理</category>
+            <category>#プロンプトキャッシュ</category>
+            <category>#モデル選択</category>
+            <category>AI</category>
+            <category>Anthropic</category>
+            <category>MCP</category>
+        </item>
+        <item>
+            <title><![CDATA[AIにAWSアップデート情報をまとめて通知してもらう | Agent Grow Tech Notesのフィード]]></title>
+            <link>https://zenn.dev/agent_grow/articles/660abe1a4bfa53</link>
+            <guid isPermaLink="false">https://zenn.dev/agent_grow/articles/660abe1a4bfa53</guid>
+            <pubDate>Wed, 14 Oct 2026 23:00:06 GMT</pubDate>
+            <description><![CDATA[目的私はAWSをメインとしたクラウドエンジニアなので、AWSのアップデート情報をチェックしていましたが色々な悩みがありました。アップデート情報が多すぎる（いい意味で）のでチェックが大変。自分の業務に役立つアップデート情報だけほしい。定期的に通知したい。Slackに通知とかされるととてもうれしい。ということで、社内で利用しているGeminiを使って、アップデート情報をサマリして定期通知してもらってい]]></description>
+            <author>duora0406</author>
+        </item>
+        <item>
+            <title><![CDATA[Orcaを使い始めて便利だった機能を紹介します | TOKIUMプロダクトチーム テックブログのフィード]]></title>
+            <link>https://zenn.dev/tokium_dev/articles/orca-first-impressions</link>
+            <guid isPermaLink="false">https://zenn.dev/tokium_dev/articles/orca-first-impressions</guid>
+            <pubDate>Wed, 14 Oct 2026 23:00:05 GMT</pubDate>
+            <description><![CDATA[TOKIUM でエンジニアをしているren21です。最近、Orca というデスクトップアプリを使い始めました。Claude Code や Codex などの AI エージェントを動かすための無料のオープンソースです。Orca は自分たちのことを ADE（Agent Development Environment）と呼んでいます。IDE が人がコードを書くための環境なのに対して、ADE は AI エ]]></description>
+            <author>れん</author>
+        </item>
+        <item>
+            <title><![CDATA[スクラムイベントの準備、Atlassian Rovoにどこまで任せられる？ | techtekt（テックテクト） | パーソルキャリアのDevelopers Blog]]></title>
+            <link>https://techtekt.persol-career.co.jp/entry/tech/261015_01</link>
+            <guid isPermaLink="false">https://techtekt.persol-career.co.jp/entry/tech/261015_01</guid>
+            <pubDate>Wed, 14 Oct 2026 23:00:00 GMT</pubDate>
+            <description><![CDATA[スクラムイベントの準備、Atlassian Rovoにどこまで任せられる？]]></description>
+        </item>
+        <item>
+            <title><![CDATA[仕様書も SQL もログも全部コンテキスト: Snowflake Cortex Agents へのコンテキスト連携の選択肢 | Finatext Tech Blogのフィード]]></title>
+            <link>https://zenn.dev/finatext/articles/snowflake-cortex-agent-context-options</link>
+            <guid isPermaLink="false">https://zenn.dev/finatext/articles/snowflake-cortex-agent-context-options</guid>
+            <pubDate>Wed, 14 Oct 2026 22:00:05 GMT</pubDate>
+            <description><![CDATA[はじめにこんにちは！ナウキャストのデータエンジニアのけびんです。先日 Snowflake World Tour Tokyo 2026 に「仕様書も SQL もログも全部コンテキスト: Cortex Agent へのコンテキスト連携の選択肢」というタイトルで登壇しました。https://speakerdeck.com/kevinrobot34/snowflake-cortex-agent-conte]]></description>
+            <author>けびん</author>
+        </item>
+        <item>
+            <title><![CDATA[探索的テストにAIを活用する方法：リスクをスコアで絞るプロンプト設計 | ROBOT PAYMENT TECH-BLOG]]></title>
+            <link>https://tech.robotpayment.co.jp/entry/2026/10/15/070000</link>
+            <guid isPermaLink="false">https://tech.robotpayment.co.jp/entry/2026/10/15/070000</guid>
+            <pubDate>Wed, 14 Oct 2026 22:00:00 GMT</pubDate>
+            <description><![CDATA[こんにちは! ROBOT PAYMENTでサブスクペイの開発を担当している小林です。 決済システムの改修では確認すべき範囲が広く、探索的テストで「どこから試すか」の当たりをつけるだけでも時間がかかります。 そこで今回は、探索を始める前にAIを使って、リスクの高そうな箇所に当たりをつける方法を紹介します。特に工夫したのは、AIの指摘をスコアで絞ることです。 対象読者: 探索的テストで試す箇所を考える]]></description>
+        </item>
+    </channel>
+</rss>
